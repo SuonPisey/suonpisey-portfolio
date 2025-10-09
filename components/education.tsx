@@ -4,22 +4,26 @@ import { Card, CardContent } from "@/components/ui/card"
 export function Education() {
   const education = [
     {
-      degree: "Bachelor of Computer Science",
-      school: "Royal University of Phnom Penh",
-      period: "2019 - 2023",
-      description: "Focused on software engineering, web development, and database systems. Graduated with honors.",
+      degree: "Bachelor of Management Information Systems",
+      school: "Setec Institute ",
+      period: "2020 - 2024",
+      description: "Focused on information systems, database management, and business analytics.",
       achievements: [
-        "Dean's List for 4 consecutive semesters",
-        "Led final year project on full-stack web application",
-        "Member of Computer Science Club",
+        "Graduated with First Class Honors",
+        "Dean's List for 6 consecutive semesters",
+        "Led a team project that developed a campus event management system",
       ],
     },
     {
       degree: "High School Diploma",
-      school: "Preah Sisowath High School",
+      school: "HunSen OuReang Ov High School",
       period: "2016 - 2019",
       description: "Specialized in Mathematics and Science with excellent academic performance.",
-      achievements: ["Top 10% of graduating class", "Mathematics competition winner"],
+      achievements: [
+        "Graduated with Honors",
+        "Captain of the Math Club",
+        "Organized school-wide science fairs and competitions",
+      ],
     },
   ]
 

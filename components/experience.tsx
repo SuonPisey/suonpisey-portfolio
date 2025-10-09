@@ -1,48 +1,48 @@
-import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 export function Experience() {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Company",
-      period: "2022 - Present",
-      description: [
-        "Lead development of enterprise web applications using React, Next.js, and Spring Boot",
-        "Architected and implemented RESTful APIs with Spring Boot serving 100k+ daily active users",
-        "Built responsive, performant frontends with React and Next.js",
-        "Improved application performance by 40% through optimization and caching strategies",
-      ],
-      technologies: ["React", "Next.js", "TypeScript", "Spring Boot", "PostgreSQL", "Docker"],
-    },
-    {
       title: "Full Stack Developer",
-      company: "Digital Solutions",
-      period: "2020 - 2022",
+      company: "Online ISP",
+      period: "2024 - Present",
       description: [
-        "Developed full-stack web applications with React frontend and Spring Boot backend",
-        "Implemented secure authentication and authorization systems",
-        "Integrated third-party APIs and payment gateways",
-        "Collaborated with cross-functional teams in agile environment",
+        "Developed and maintained web applications using React and Next.js",
+        "Built RESTful APIs with Spring Boot and Java",
+        "Optimized database queries and designed schemas in PostgreSQL",
+        "Implemented CI/CD pipelines using GitHub Actions and Docker",
+        "Collaborated with cross-functional teams to deliver high-quality software",
       ],
-      technologies: ["React", "Spring Boot", "Java", "MySQL", "Tailwind CSS"],
+      technologies: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Spring Boot",
+        "PostgreSQL",
+        "Docker",
+      ],
     },
     {
-      title: "Junior Developer",
-      company: "Startup Inc",
-      period: "2018 - 2020",
+      title: "Frontend Developer",
+      company: "Cubetiq Solutions",
+      period: "2023 - 2024",
       description: [
-        "Developed and maintained features using React and Java Spring",
+        "Developed responsive user interfaces using React and Tailwind CSS",
+        "Integrated frontend with backend services using RESTful APIs",
+        "Collaborated with designers to implement UI/UX best practices",
         "Participated in code reviews and agile development processes",
-        "Wrote unit and integration tests to ensure code quality",
-        "Assisted in database design and API development",
+        "Wrote unit tests to ensure code quality and reliability",
       ],
-      technologies: ["JavaScript", "React", "Spring Boot", "MySQL"],
+      technologies: ["React", "MySQL", "Tailwind CSS"],
     },
-  ]
+  ];
 
   return (
-    <section id="experience" className="min-h-screen flex items-center px-6 lg:px-12 py-20">
+    <section
+      id="experience"
+      className="min-h-screen flex items-center px-6 lg:px-12 py-20"
+    >
       <div className="max-w-4xl w-full">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-foreground animate-fade-in">
           <span className="text-primary font-mono text-xl mr-2">02.</span>
@@ -58,15 +58,22 @@ export function Experience() {
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground">{exp.title}</h3>
+                  <h3 className="text-xl font-semibold text-foreground">
+                    {exp.title}
+                  </h3>
                   <p className="text-primary">{exp.company}</p>
                 </div>
-                <p className="text-sm text-muted-foreground font-mono mt-2 md:mt-0">{exp.period}</p>
+                <p className="text-sm text-muted-foreground font-mono mt-2 md:mt-0">
+                  {exp.period}
+                </p>
               </div>
 
               <ul className="space-y-2 mb-4">
                 {exp.description.map((item, i) => (
-                  <li key={i} className="flex gap-2 text-muted-foreground text-sm leading-relaxed">
+                  <li
+                    key={i}
+                    className="flex gap-2 text-muted-foreground text-sm leading-relaxed"
+                  >
                     <span className="text-primary mt-1">▹</span>
                     <span>{item}</span>
                   </li>
@@ -85,5 +92,5 @@ export function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }

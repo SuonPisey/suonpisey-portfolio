@@ -50,8 +50,16 @@ export function Navigation() {
     <nav className="fixed left-0 top-0 z-50 h-screen w-64 border-r border-border bg-card p-8 hidden lg:flex flex-col justify-between">
       <div>
         <div className="flex items-center justify-between mb-6">
-          <Avatar className="h-32 w-32">
-            <AvatarImage src="/professional-developer-portrait.png" alt="Suon Pisey" />
+          <Avatar className="h-20 w-20">
+            <AvatarImage src="/profile.PNG" alt="Suon Pisey" className="
+              object-cover
+              rounded-full
+              border-2
+              border-primary
+              hover:scale-105
+              transition-transform
+              duration-300
+            " />
             <AvatarFallback>SP</AvatarFallback>
           </Avatar>
           <ThemeToggle />

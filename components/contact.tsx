@@ -1,10 +1,13 @@
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export function Contact() {
   return (
-    <section id="contact" className="min-h-screen flex items-center px-6 lg:px-12 py-20">
+    <section
+      id="contact"
+      className="min-h-screen flex items-center px-6 lg:px-12 py-20"
+    >
       <div className="max-w-4xl w-full">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-foreground">
           <span className="text-primary font-mono text-xl mr-2">04.</span>
@@ -14,8 +17,9 @@ export function Contact() {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I'm currently looking for new opportunities and my inbox is always open. Whether you have a question or
-              just want to say hi, I'll try my best to get back to you!
+              I'm currently looking for new opportunities and my inbox is always
+              open. Whether you have a question or just want to say hi, I'll try
+              my best to get back to you!
             </p>
 
             <div className="space-y-4">
@@ -24,10 +28,10 @@ export function Contact() {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <a
-                    href="mailto:your.email@example.com"
+                    href="mailto: suonpisey017@gmail.com"
                     className="text-foreground hover:text-primary transition-colors"
                   >
-                    your.email@example.com
+                    suonpisey017@gmail.com
                   </a>
                 </div>
               </Card>
@@ -36,8 +40,11 @@ export function Contact() {
                 <Phone className="h-5 w-5 text-primary" />
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <a href="tel:+1234567890" className="text-foreground hover:text-primary transition-colors">
-                    +1 (234) 567-890
+                  <a
+                    href="tel:+1234567890"
+                    className="text-foreground hover:text-primary transition-colors"
+                  >
+                    +855 17783867
                   </a>
                 </div>
               </Card>
@@ -55,7 +62,10 @@ export function Contact() {
           <Card className="p-6 bg-card border-border">
             <form className="space-y-4">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-2 text-foreground">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium mb-2 text-foreground"
+                >
                   Name
                 </label>
                 <input
@@ -66,7 +76,10 @@ export function Contact() {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-2 text-foreground">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium mb-2 text-foreground"
+                >
                   Email
                 </label>
                 <input
@@ -77,7 +90,10 @@ export function Contact() {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-2 text-foreground">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium mb-2 text-foreground"
+                >
                   Message
                 </label>
                 <textarea
@@ -96,9 +112,9 @@ export function Contact() {
 
         <footer className="mt-16 text-center text-sm text-muted-foreground">
           <p>Built with Next.js & Tailwind CSS</p>
-          <p className="mt-2">© 2025 Your Name. All rights reserved.</p>
+          <p className="mt-2">© 2025 Suon Pisey. All rights reserved.</p>
         </footer>
       </div>
     </section>
-  )
+  );
 }
