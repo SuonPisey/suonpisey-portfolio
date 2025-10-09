@@ -1,21 +1,21 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Menu, X, Github, Linkedin, Mail, Twitter } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { ThemeToggle } from "@/components/theme-toggle"
+import { useState } from "react";
+import { Menu, X, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export function MobileNav() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId)
+    const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
-      setIsOpen(false)
+      element.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false);
     }
-  }
+  };
 
   const navItems = [
     { id: "home", label: "Home" },
@@ -24,7 +24,7 @@ export function MobileNav() {
     { id: "education", label: "Education" },
     { id: "projects", label: "Projects" },
     { id: "contact", label: "Contact" },
-  ]
+  ];
 
   return (
     <div className="lg:hidden">
@@ -32,19 +32,41 @@ export function MobileNav() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Avatar className="h-14 w-14">
-              <AvatarImage src="/professional-developer-portrait.png" alt="Suon Pisey" />
+              <AvatarImage
+                src="/profile.PNG"
+                alt="Suon Pisey"
+                className="
+              object-cover
+              rounded-full
+              border-2
+              border-primary
+              hover:scale-105
+              transition-transform
+              duration-300
+            "
+              />
               <AvatarFallback>SP</AvatarFallback>
             </Avatar>
             <div>
               <h2 className="text-lg font-bold text-foreground">Suon Pisey</h2>
-              <p className="text-xs text-muted-foreground">Full Stack Developer</p>
+              <p className="text-xs text-muted-foreground">
+                Full Stack Developer
+              </p>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
             <ThemeToggle />
-            <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)}>
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </Button>
           </div>
         </div>
@@ -68,22 +90,25 @@ export function MobileNav() {
 
             <div className="flex gap-4 mt-8">
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/SuonPisey"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/suon-pisey-05a407318"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                  <Twitter className="h-5 w-5" />
-                </a>
-              </Button>
-              <Button variant="ghost" size="icon" asChild>
-                <a href="mailto:your.email@example.com">
+                <a href="mailto:suonpisey017@gmail.com">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
@@ -92,5 +117,5 @@ export function MobileNav() {
         </div>
       )}
     </div>
-  )
+  );
 }
