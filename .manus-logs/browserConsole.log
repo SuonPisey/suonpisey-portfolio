@@ -1,0 +1,15 @@
+[2026-04-29T03:48:57.321Z] {"timestamp":1777434535313,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-04-29T03:48:57.321Z] {"timestamp":1777434535332,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-04-29T03:49:02.168Z] {"timestamp":1777434541230,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-04-29T03:49:02.168Z] {"timestamp":1777434541240,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-04-29T03:49:02.477Z] {"timestamp":1777434542195,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-04-29T03:49:02.477Z] {"timestamp":1777434542200,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-04-29T03:49:02.930Z] {"timestamp":1777434542503,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-04-29T03:49:02.930Z] {"timestamp":1777434542508,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-04-29T03:49:03.111Z] {"timestamp":1777434542958,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-04-29T03:49:03.111Z] {"timestamp":1777434542968,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-04-29T03:49:05.142Z] {"timestamp":1777434543136,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-04-29T03:49:05.142Z] {"timestamp":1777434543139,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-04-29T03:49:15.139Z] {"timestamp":1777434553999,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-04-29T03:49:19.139Z] {"timestamp":1777434558522,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-04-29T03:49:23.139Z] {"timestamp":1777434562284,"level":"WARN","args":["'oklab(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
