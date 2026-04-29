@@ -53,7 +53,7 @@ export function Contact() {
                 <MapPin className="h-5 w-5 text-primary" />
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="text-foreground">San Francisco, CA</p>
+                  <p className="text-foreground">Phnom Penh, Cambodia</p>
                 </div>
               </Card>
             </div>

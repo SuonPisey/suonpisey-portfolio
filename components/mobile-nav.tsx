@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
-import { Menu, X, Github, Linkedin, Mail, Twitter } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
+import { Github, Linkedin, Mail, Menu, X } from "lucide-react";
+import { useState } from "react";
 
 export function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +33,7 @@ export function MobileNav() {
           <div className="flex items-center gap-3">
             <Avatar className="h-14 w-14">
               <AvatarImage
-                src="/profile.PNG"
+                src="/IMG_3468.JPG"
                 alt="Suon Pisey"
                 className="
               object-cover

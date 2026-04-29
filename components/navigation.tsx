@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
+import { Github, Linkedin, Mail } from "lucide-react";
+import { useEffect, useState } from "react";
 
 export function Navigation() {
   const [activeSection, setActiveSection] = useState("home");
@@ -62,7 +62,7 @@ export function Navigation() {
         <div className="flex items-center justify-between mb-6">
           <Avatar className="h-20 w-20">
             <AvatarImage
-              src="/profile.PNG"
+              src="/IMG_3468.JPG"
               alt="Suon Pisey"
               className="
               object-cover
