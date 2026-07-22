@@ -20,3 +20,118 @@
 [2026-05-20T06:29:45.945Z] {"timestamp":1779258583941,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
 [2026-05-20T06:29:45.945Z] {"timestamp":1779258584039,"level":"DEBUG","args":["[vite] connected."],"stack":null}
 [2026-05-20T06:29:45.945Z] {"timestamp":1779258584330,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-07-19T09:09:29.945Z] {"timestamp":1784452167941,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-19T09:09:29.945Z] {"timestamp":1784452167949,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-19T09:09:29.945Z] {"timestamp":1784452167997,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-07-19T09:09:40.640Z] {"timestamp":1784452178635,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-19T09:09:40.640Z] {"timestamp":1784452178659,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-19T09:57:40.344Z] {"timestamp":1784455058339,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-19T09:57:40.344Z] {"timestamp":1784455058353,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-19T10:02:20.434Z] {"timestamp":1784455339918,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-07-19T10:02:20.652Z] {"timestamp":1784455339963,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-07-19T10:02:23.048Z] {"timestamp":1784455340972,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-19T10:02:23.048Z] {"timestamp":1784455341464,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-19T10:02:23.052Z] {"timestamp":1784455341006,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-19T10:02:23.052Z] {"timestamp":1784455341028,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:47:46.492Z] {"timestamp":1784706464488,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-22T07:47:46.492Z] {"timestamp":1784706464500,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:48:38.492Z] {"timestamp":1784706518327,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:48:38.492Z] {"timestamp":1784706518328,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:48:42.979Z] {"timestamp":1784706521657,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:48:42.979Z] {"timestamp":1784706521657,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:48:44.978Z] {"timestamp":1784706524861,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:48:44.978Z] {"timestamp":1784706524861,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:48:48.978Z] {"timestamp":1784706527718,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:48:48.978Z] {"timestamp":1784706527718,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:48:51.032Z] {"timestamp":1784706530327,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:48:51.032Z] {"timestamp":1784706530327,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:48:53.023Z] {"timestamp":1784706531771,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:48:53.023Z] {"timestamp":1784706531771,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:48:56.978Z] {"timestamp":1784706535758,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:48:56.978Z] {"timestamp":1784706535759,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:03.025Z] {"timestamp":1784706542042,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:03.025Z] {"timestamp":1784706542042,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:05.028Z] {"timestamp":1784706544430,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:05.028Z] {"timestamp":1784706544431,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:06.982Z] {"timestamp":1784706545715,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:06.982Z] {"timestamp":1784706545715,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:12.593Z] {"timestamp":1784706550578,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-22T07:49:12.594Z] {"timestamp":1784706550623,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:49:23.073Z] {"timestamp":1784706562026,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:23.073Z] {"timestamp":1784706562026,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:25.056Z] {"timestamp":1784706564198,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:25.056Z] {"timestamp":1784706564198,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:37.359Z] {"timestamp":1784706575346,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-22T07:49:37.359Z] {"timestamp":1784706575366,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:49:43.984Z] {"timestamp":1784706582617,"level":"ERROR","args":["[vite]","Failed to reload /src/components/Hero.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 1)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-07-22T07:49:43.984Z] {"timestamp":1784706582758,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:43.984Z] {"timestamp":1784706582759,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:45.983Z] {"timestamp":1784706584013,"level":"ERROR","args":["[vite]","Failed to reload /src/components/Hero.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 1)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-07-22T07:49:45.983Z] {"timestamp":1784706584092,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:45.983Z] {"timestamp":1784706584092,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:47.980Z] {"timestamp":1784706586355,"level":"ERROR","args":["[vite]","Failed to reload /src/components/Hero.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 1)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-07-22T07:49:47.980Z] {"timestamp":1784706586420,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:47.980Z] {"timestamp":1784706586420,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:53.989Z] {"timestamp":1784706593693,"level":"ERROR","args":["[vite]","Failed to reload /src/components/Hero.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 1)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-07-22T07:49:53.989Z] {"timestamp":1784706593775,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:53.989Z] {"timestamp":1784706593775,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:53.989Z] {"timestamp":1784706593784,"level":"ERROR","args":["[vite]","Failed to reload /src/components/Hero.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 1)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-07-22T07:49:53.989Z] {"timestamp":1784706593874,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:53.989Z] {"timestamp":1784706593874,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:56.081Z] {"timestamp":1784706595307,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:56.081Z] {"timestamp":1784706595307,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:49:59.989Z] {"timestamp":1784706598117,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:49:59.989Z] {"timestamp":1784706598117,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:50:01.980Z] {"timestamp":1784706600409,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:50:01.980Z] {"timestamp":1784706600410,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:50:03.980Z] {"timestamp":1784706603582,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:50:03.980Z] {"timestamp":1784706603583,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:50:11.984Z] {"timestamp":1784706611585,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:50:11.984Z] {"timestamp":1784706611586,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:50:25.817Z] {"timestamp":1784706623809,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-22T07:50:25.817Z] {"timestamp":1784706623929,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:50:32.095Z] {"timestamp":1784706631319,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:50:32.095Z] {"timestamp":1784706631324,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:50:34.071Z] {"timestamp":1784706633130,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:50:34.071Z] {"timestamp":1784706633130,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:50:37.981Z] {"timestamp":1784706636949,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:50:37.981Z] {"timestamp":1784706636950,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:50:39.981Z] {"timestamp":1784706638180,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:50:39.981Z] {"timestamp":1784706638180,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:50:58.043Z] {"timestamp":1784706657386,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:50:58.043Z] {"timestamp":1784706657387,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:51:01.979Z] {"timestamp":1784706661877,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:51:01.979Z] {"timestamp":1784706661877,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:51:29.825Z] {"timestamp":1784706689030,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:51:31.814Z] {"timestamp":1784706690312,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:53:21.982Z] {"timestamp":1784706799837,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-22T07:53:21.982Z] {"timestamp":1784706799872,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:53:59.295Z] {"timestamp":1784706837291,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-22T07:53:59.296Z] {"timestamp":1784706837325,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:55:11.295Z] {"timestamp":1784706909291,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-22T07:55:11.295Z] {"timestamp":1784706909328,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:55:32.042Z] {"timestamp":1784706930060,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-07-22T07:55:32.042Z] {"timestamp":1784706930060,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-07-22T07:57:31.298Z] {"timestamp":1784707049424,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:57:31.298Z] {"timestamp":1784707049458,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:57:47.954Z] {"timestamp":1784707065928,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-07-22T07:57:47.954Z] {"timestamp":1784707065940,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-07-22T07:58:05.932Z] {"timestamp":1784707084526,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:09.933Z] {"timestamp":1784707088458,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:11.931Z] {"timestamp":1784707091825,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:11.931Z] {"timestamp":1784707091875,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:13.931Z] {"timestamp":1784707092408,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:15.931Z] {"timestamp":1784707095248,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:15.931Z] {"timestamp":1784707095297,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:15.931Z] {"timestamp":1784707095758,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:20.044Z] {"timestamp":1784707098014,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:23.936Z] {"timestamp":1784707102177,"level":"WARN","args":["'oklab(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:23.936Z] {"timestamp":1784707102241,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:23.936Z] {"timestamp":1784707102257,"level":"WARN","args":["'oklab(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:23.936Z] {"timestamp":1784707102775,"level":"WARN","args":["'oklab(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:33.934Z] {"timestamp":1784707113725,"level":"WARN","args":["'oklab(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:35.932Z] {"timestamp":1784707115524,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:35.932Z] {"timestamp":1784707115558,"level":"WARN","args":["'oklab(0.15 0.01 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:37.932Z] {"timestamp":1784707117678,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:39.931Z] {"timestamp":1784707119392,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-07-22T07:58:41.932Z] {"timestamp":1784707120959,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}

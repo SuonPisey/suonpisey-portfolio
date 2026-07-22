@@ -1,6 +1,6 @@
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { motion } from 'framer-motion';
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 import {
   fadeInLeftVariants,
   fadeInRightVariants,
@@ -8,13 +8,13 @@ import {
   floatVariants,
   containerVariants,
   itemVariants,
-} from '@/lib/animations';
+} from "@/lib/animations";
 
 export default function Hero() {
   const socialIcons = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:pisey@example.com', label: 'Email' },
+    { icon: Github, href: "https://github.com", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:pisey@example.com", label: "Email" },
   ];
 
   return (
@@ -23,9 +23,10 @@ export default function Hero() {
       <motion.div
         className="absolute inset-0 z-0 opacity-40"
         style={{
-          backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/hero-background-MHhFiJdFuFG6zfQG8RqhMr.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundImage:
+            "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/hero-background-MHhFiJdFuFG6zfQG8RqhMr.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.4 }}
@@ -51,43 +52,60 @@ export default function Hero() {
           </motion.div>
 
           {/* Main Heading */}
-          <motion.h1 variants={itemVariants} className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
+          <motion.h1
+            variants={itemVariants}
+            className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight"
+          >
             Hi, I'm <span className="gradient-text">Pisey Suon</span>
           </motion.h1>
 
           {/* Subtitle */}
-          <motion.p variants={itemVariants} className="text-xl text-foreground/70 mb-4 font-medium">
+          <motion.p
+            variants={itemVariants}
+            className="text-xl text-foreground/70 mb-4 font-medium"
+          >
             Full-Stack Developer from Cambodia
           </motion.p>
 
           {/* Description */}
-          <motion.p variants={itemVariants} className="text-lg text-foreground/60 mb-8 leading-relaxed max-w-lg">
-            I craft beautiful, performant web applications using modern technologies like React, Next.js, TypeScript, and Node.js. Passionate about building scalable solutions and delivering exceptional user experiences.
+          <motion.p
+            variants={itemVariants}
+            className="text-lg text-foreground/60 mb-8 leading-relaxed max-w-lg"
+          >
+            I craft beautiful, performant web applications using modern
+            technologies like React, Next.js, TypeScript, and Node.js.
+            Passionate about building scalable solutions and delivering
+            exceptional user experiences.
           </motion.p>
 
           {/* CTA Buttons */}
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 mb-12">
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
+          <motion.div
+            variants={itemVariants}
+            className="flex flex-col sm:flex-row gap-4 mb-12"
+          >
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-white font-semibold flex items-center gap-2 w-full sm:w-auto"
-                onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() =>
+                  document
+                    .getElementById("projects")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
               >
                 View Projects <ArrowRight className="w-4 h-4" />
               </Button>
             </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
                 size="lg"
                 variant="outline"
                 className="border-2 border-primary text-primary hover:bg-primary/5 font-semibold w-full sm:w-auto"
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() =>
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
               >
                 Contact Me
               </Button>
@@ -95,8 +113,13 @@ export default function Hero() {
           </motion.div>
 
           {/* Social Links */}
-          <motion.div variants={itemVariants} className="flex items-center gap-6">
-            <span className="text-foreground/60 font-medium">Connect with me:</span>
+          <motion.div
+            variants={itemVariants}
+            className="flex items-center gap-6"
+          >
+            <span className="text-foreground/60 font-medium">
+              Connect with me:
+            </span>
             <motion.div
               className="flex gap-4"
               variants={containerVariants}
@@ -116,7 +139,7 @@ export default function Hero() {
                     whileHover={{
                       scale: 1.1,
                       rotate: 5,
-                      backgroundColor: 'rgba(0, 212, 255, 0.1)',
+                      backgroundColor: "rgba(0, 212, 255, 0.1)",
                     }}
                     whileTap={{ scale: 0.95 }}
                     aria-label={social.label}
@@ -141,14 +164,10 @@ export default function Hero() {
             variants={floatVariants}
             animate="animate"
           >
-            <div
-              className="absolute inset-0 rounded-2xl opacity-60"
-              style={{
-                backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/skills-accent-EtdpSDTSsp4k8aEEPwEAmD.webp)',
-                backgroundSize: 'contain',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-              }}
+            <img
+              src="/assets/logo.jpg"
+              alt="Decorative Element"
+              className="absolute inset-0 w-full h-full object-contain rounded-2xl   "
             />
           </motion.div>
         </motion.div>
