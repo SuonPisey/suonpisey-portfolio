@@ -14,7 +14,7 @@ export default function Resume() {
 
   const handleDownload = () => {
     // Create a simple resume PDF download
-    const resumeUrl = '/resume.pdf';
+    const resumeUrl = '/resumev2.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Pisey_Suon_Resume.pdf';
@@ -42,10 +42,10 @@ export default function Resume() {
   ];
 
   return (
-    <section className="py-20 md:py-32 bg-background" ref={ref}>
+    <section className="py-16 md:py-32 bg-background" ref={ref}>
       <div className="container">
         <motion.div
-          className="mb-16"
+          className="mb-10 md:mb-16"
           variants={containerVariants}
           initial="hidden"
           animate={isVisible ? 'visible' : 'hidden'}
@@ -54,7 +54,7 @@ export default function Resume() {
             Resume & Credentials
           </motion.h2>
           <motion.p
-            className="text-lg text-foreground/60 max-w-2xl"
+            className="text-base md:text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
             Download my complete resume or view my education and certifications below.
@@ -72,13 +72,13 @@ export default function Resume() {
           }}
         >
           <motion.div
-            className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl p-8 md:p-12 border border-primary/20 flex flex-col md:flex-row items-center justify-between gap-6"
+            className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl p-5 sm:p-8 md:p-12 border border-primary/20 flex flex-col md:flex-row items-center justify-between gap-6"
             whileHover={{
               backgroundColor: 'rgba(0, 212, 255, 0.15)',
             }}
           >
             <motion.div
-              className="flex items-center gap-4"
+              className="flex flex-col sm:flex-row items-center text-center sm:text-left gap-4"
               variants={containerVariants}
               initial="hidden"
               animate="visible"
@@ -96,7 +96,7 @@ export default function Resume() {
               </motion.div>
               <motion.div variants={containerVariants} initial="hidden" animate="visible">
                 <motion.h3
-                  className="text-2xl font-bold text-foreground mb-1"
+                  className="text-xl sm:text-2xl font-bold text-foreground mb-1"
                   variants={itemVariants}
                 >
                   Download My Resume
@@ -116,7 +116,7 @@ export default function Resume() {
               <Button
                 size="lg"
                 onClick={handleDownload}
-                className="bg-primary hover:bg-primary/90 text-white font-semibold flex items-center gap-2 whitespace-nowrap"
+                className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white font-semibold flex items-center gap-2 whitespace-nowrap"
               >
                 <motion.div
                   animate={{ y: [0, -3, 0] }}
@@ -140,7 +140,7 @@ export default function Resume() {
           {resumeHighlights.map((section) => (
             <motion.div
               key={section.category}
-              className="bg-white dark:bg-card rounded-xl p-8 shadow-sm border border-border/50"
+              className="bg-white dark:bg-card rounded-xl p-5 sm:p-8 shadow-sm border border-border/50"
               variants={gridItemVariants}
               whileHover={{
                 boxShadow: '0 20px 25px rgba(0, 212, 255, 0.15)',
@@ -167,7 +167,7 @@ export default function Resume() {
                     variants={itemVariants}
                     whileHover={{ x: 5 }}
                   >
-                    <div className="flex items-start justify-between gap-4 mb-2">
+                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-4 mb-2">
                       <motion.h4
                         className="font-semibold text-foreground leading-tight"
                         whileHover={{ color: '#00d4ff' }}
@@ -197,7 +197,7 @@ export default function Resume() {
 
         {/* Skills Summary */}
         <motion.div
-          className="bg-secondary/50 rounded-xl p-8 md:p-12 border border-border/50"
+          className="bg-secondary/50 rounded-xl p-5 sm:p-8 md:p-12 border border-border/50"
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6, delay: 0.2 }}

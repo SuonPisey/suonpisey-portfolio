@@ -121,6 +121,12 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
@@ -192,7 +198,7 @@
 
   /* Minimalist Portfolio Custom Components */
   .section-title {
-    @apply text-3xl md:text-4xl font-bold text-foreground mb-12 relative inline-block;
+    @apply text-3xl md:text-4xl font-bold text-foreground mb-8 md:mb-12 relative inline-block;
   }
 
   .section-title::after {

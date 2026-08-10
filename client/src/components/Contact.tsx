@@ -66,10 +66,10 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-secondary/30" ref={ref}>
+    <section id="contact" className="py-16 md:py-32 bg-secondary/30" ref={ref}>
       <div className="container">
         <motion.div
-          className="mb-16"
+          className="mb-10 md:mb-16"
           variants={containerVariants}
           initial="hidden"
           animate={isVisible ? "visible" : "hidden"}
@@ -78,7 +78,7 @@ export default function Contact() {
             Get In Touch
           </motion.h2>
           <motion.p
-            className="text-lg text-foreground/60 max-w-2xl"
+            className="text-base md:text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
             Have a project in mind or want to collaborate? I'd love to hear from
@@ -104,7 +104,7 @@ export default function Contact() {
                 whileHover={{ y: -10 }}
               >
                 <motion.div
-                  className="bg-white dark:bg-card rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/50 text-center"
+                  className="bg-white dark:bg-card rounded-xl p-5 sm:p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/50 text-center"
                   whileHover={{
                     boxShadow: "0 20px 25px rgba(0, 212, 255, 0.15)",
                   }}
@@ -127,7 +127,7 @@ export default function Contact() {
                     {info.label}
                   </motion.h3>
                   <motion.p
-                    className="text-foreground/70 hover:text-primary transition-colors duration-300"
+                    className="break-words text-foreground/70 hover:text-primary transition-colors duration-300"
                     whileHover={{ scale: 1.05 }}
                   >
                     {info.value}
@@ -146,7 +146,7 @@ export default function Contact() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <motion.div
-            className="bg-white dark:bg-card rounded-xl p-8 md:p-12 shadow-sm border border-border/50"
+            className="bg-white dark:bg-card rounded-xl p-5 sm:p-8 md:p-12 shadow-sm border border-border/50"
             whileHover={{
               boxShadow: "0 20px 25px rgba(0, 212, 255, 0.1)",
             }}
@@ -175,7 +175,6 @@ export default function Contact() {
                   required
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300"
                   placeholder="Your name"
-                  whileFocus={{ scale: 1.02 }}
                 />
               </motion.div>
 
@@ -202,7 +201,6 @@ export default function Contact() {
                   required
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300"
                   placeholder="your@email.com"
-                  whileFocus={{ scale: 1.02 }}
                 />
               </motion.div>
 
@@ -229,7 +227,6 @@ export default function Contact() {
                   required
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300"
                   placeholder="Project inquiry"
-                  whileFocus={{ scale: 1.02 }}
                 />
               </motion.div>
 
@@ -256,7 +253,6 @@ export default function Contact() {
                   rows={5}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300 resize-none"
                   placeholder="Tell me about your project..."
-                  whileFocus={{ scale: 1.02 }}
                 />
               </motion.div>
 

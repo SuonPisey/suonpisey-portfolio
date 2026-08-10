@@ -16,7 +16,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-20">
+    <section className="relative min-h-[calc(100svh-4rem)] md:min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-16 md:pt-20 md:pb-20">
       {/* Animated Background Image */}
       <motion.div
         className="absolute inset-0 z-0 opacity-40"
@@ -31,12 +31,13 @@ export default function Hero() {
         transition={{ duration: 1 }}
       />
 
-      <div className="container relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="container relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
         {/* Left Content */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
+          className="text-center md:text-left"
         >
           {/* Badge */}
           <motion.div variants={itemVariants} className="mb-6">
@@ -52,7 +53,7 @@ export default function Hero() {
           {/* Main Heading */}
           <motion.h1
             variants={itemVariants}
-            className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight"
+            className="text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-5 md:mb-6 leading-tight"
           >
             Hi, I'm <span className="gradient-text">Pisey Suon</span>
           </motion.h1>
@@ -60,7 +61,7 @@ export default function Hero() {
           {/* Subtitle */}
           <motion.p
             variants={itemVariants}
-            className="text-xl text-foreground/70 mb-4 font-medium"
+            className="text-lg sm:text-xl text-foreground/70 mb-4 font-medium"
           >
             Full-Stack Developer from Cambodia
           </motion.p>
@@ -68,7 +69,7 @@ export default function Hero() {
           {/* Description */}
           <motion.p
             variants={itemVariants}
-            className="text-lg text-foreground/60 mb-8 leading-relaxed max-w-lg"
+            className="text-base sm:text-lg text-foreground/60 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0"
           >
             I craft beautiful, performant web applications using modern
             technologies like React, Next.js, TypeScript, and Node.js.
@@ -79,7 +80,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-col sm:flex-row gap-4 mb-12"
+            className="flex flex-col sm:flex-row sm:justify-center md:justify-start gap-3 sm:gap-4 mb-9 md:mb-12"
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button
@@ -113,7 +114,7 @@ export default function Hero() {
           {/* Social Links */}
           <motion.div
             variants={itemVariants}
-            className="flex items-center gap-6"
+            className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-6"
           >
             <span className="text-foreground/60 font-medium">
               Connect with me:
@@ -173,7 +174,7 @@ export default function Hero() {
 
       {/* Animated Scroll Indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10"
+        className="hidden sm:block absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
       >

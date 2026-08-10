@@ -20,14 +20,14 @@ export default function Footer() {
   ];
 
   const navItems = ["About", "Skills", "Projects", "Experience", "Contact"];
-  const resourceItems = [{ label: "Resume", href: "/resume.pdf" }];
+  const resourceItems = [{ label: "Resume", href: "/resumev2.pdf" }];
 
   return (
     <footer className="bg-background border-t border-border/50" ref={ref}>
-      <div className="container py-16">
+      <div className="container py-12 md:py-16">
         {/* Main Footer Content */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-10 md:mb-12"
           variants={staggerContainerVariants}
           initial="hidden"
           animate={isVisible ? "visible" : "hidden"}
@@ -39,7 +39,7 @@ export default function Footer() {
               whileHover={{ x: 5 }}
             >
               <motion.div
-                className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white font-bold"
+                className="w-9 h-9 overflow-hidden rounded-lg border border-border bg-white"
                 whileHover={{
                   scale: 1.1,
                   rotate: 360,
@@ -47,7 +47,7 @@ export default function Footer() {
                 }}
                 transition={{ duration: 0.5 }}
               >
-                PS
+                <img src="/assets/logo.jpg" alt="" className="h-full w-full object-cover" />
               </motion.div>
               <span className="font-bold text-lg text-foreground">
                 Pisey Suon
@@ -175,7 +175,7 @@ export default function Footer() {
           animate={isVisible ? "visible" : "hidden"}
         >
           <motion.p
-            className="text-foreground/60 text-sm"
+            className="text-center md:text-left text-foreground/60 text-sm"
             variants={itemVariants}
           >
             © {currentYear} Pisey Suon. All rights reserved.
@@ -184,7 +184,7 @@ export default function Footer() {
           {/* Scroll to Top */}
           <motion.button
             onClick={scrollToTop}
-            className="p-2 bg-secondary hover:bg-primary/10 rounded-lg transition-all duration-300"
+            className="flex min-h-11 min-w-11 items-center justify-center bg-secondary hover:bg-primary/10 rounded-lg transition-all duration-300"
             variants={itemVariants}
             whileHover={{
               scale: 1.1,

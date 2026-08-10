@@ -45,10 +45,10 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-20 md:py-32 bg-background" ref={ref}>
+    <section id="experience" className="py-16 md:py-32 bg-background" ref={ref}>
       <div className="container">
         <motion.div
-          className="mb-16"
+          className="mb-10 md:mb-16"
           variants={containerVariants}
           initial="hidden"
           animate={isVisible ? 'visible' : 'hidden'}
@@ -57,7 +57,7 @@ export default function Experience() {
             Experience
           </motion.h2>
           <motion.p
-            className="text-lg text-foreground/60 max-w-2xl"
+            className="text-base md:text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
             My professional journey and the roles that shaped my expertise as a full-stack developer.
@@ -75,9 +75,8 @@ export default function Experience() {
               key={exp.id}
               className="group"
               variants={slideInLeftVariants}
-              whileHover={{ x: 10 }}
             >
-              <div className="relative pl-8 md:pl-12">
+              <div className="relative pl-6 sm:pl-8 md:pl-12">
                 {/* Timeline dot */}
                 <motion.div
                   className="absolute left-0 top-0 w-6 h-6 bg-primary rounded-full border-4 border-background dark:border-card flex items-center justify-center"
@@ -94,7 +93,7 @@ export default function Experience() {
                 {/* Timeline line */}
                 {index !== experiences.length - 1 && (
                   <motion.div
-                    className="absolute left-3 top-6 w-0.5 h-32 bg-gradient-to-b from-primary to-primary/20"
+                    className="absolute left-3 top-6 -bottom-8 w-0.5 bg-gradient-to-b from-primary to-primary/20"
                     initial={{ scaleY: 0 }}
                     animate={isVisible ? { scaleY: 1 } : { scaleY: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
@@ -104,7 +103,7 @@ export default function Experience() {
 
                 {/* Content */}
                 <motion.div
-                  className="bg-white dark:bg-card rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/50"
+                  className="bg-white dark:bg-card rounded-xl p-4 sm:p-6 md:p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/50"
                   whileHover={{
                     boxShadow: '0 20px 25px rgba(0, 212, 255, 0.15)',
                   }}
@@ -115,8 +114,8 @@ export default function Experience() {
                     initial="hidden"
                     animate="visible"
                   >
-                    <motion.div className="flex items-center gap-4" variants={itemVariants}>
-                      <div className="relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border bg-background text-sm font-bold text-primary shadow-sm">
+                    <motion.div className="flex items-start sm:items-center gap-3 sm:gap-4" variants={itemVariants}>
+                      <div className="relative flex h-12 w-12 sm:h-14 sm:w-14 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border bg-background text-sm font-bold text-primary shadow-sm">
                         <span aria-hidden="true">{exp.logoFallback}</span>
                         <img
                           src={exp.logo}
@@ -130,12 +129,12 @@ export default function Experience() {
                       </div>
                       <div>
                         <motion.h3
-                          className="text-2xl font-bold text-foreground mb-2"
+                          className="text-lg sm:text-xl md:text-2xl font-bold text-foreground mb-1 sm:mb-2 leading-snug"
                           whileHover={{ color: '#00d4ff' }}
                         >
                           {exp.title}
                         </motion.h3>
-                        <motion.p className="text-lg text-primary font-semibold" variants={itemVariants}>
+                        <motion.p className="text-base sm:text-lg text-primary font-semibold" variants={itemVariants}>
                           {exp.company}
                         </motion.p>
                       </div>
@@ -151,7 +150,7 @@ export default function Experience() {
                   </motion.div>
 
                   <motion.p
-                    className="text-foreground/70 leading-relaxed"
+                    className="text-sm sm:text-base text-foreground/70 leading-relaxed"
                     variants={itemVariants}
                   >
                     {exp.description}

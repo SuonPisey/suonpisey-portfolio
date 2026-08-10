@@ -194,3 +194,77 @@
 [2026-08-10T06:01:52.681Z] {"timestamp":1786341710677,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
 [2026-08-10T06:01:52.681Z] {"timestamp":1786341710705,"level":"DEBUG","args":["[vite] connected."],"stack":null}
 [2026-08-10T06:01:52.681Z] {"timestamp":1786341711259,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-10T06:05:38.851Z] {"timestamp":1786341936848,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:05:38.852Z] {"timestamp":1786341936871,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:05:47.116Z] {"timestamp":1786341946850,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:05:47.116Z] {"timestamp":1786341946860,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:05:49.167Z] {"timestamp":1786341947165,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:05:49.167Z] {"timestamp":1786341947169,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:08:34.132Z] {"timestamp":1786342112976,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113242,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113243,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113608,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113609,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113890,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113890,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Header.tsx"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113927,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113927,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Skills.tsx"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113959,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113960,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Contact.tsx"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113995,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342113996,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342114038,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:08:34.133Z] {"timestamp":1786342114038,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139310,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139364,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139364,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139405,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139406,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139433,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139433,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139460,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139461,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Skills.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139491,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139491,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Contact.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139520,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139520,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139535,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342139535,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Header.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342147817,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342147818,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-10T06:09:16.145Z] {"timestamp":1786342155966,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:09:16.146Z] {"timestamp":1786342155967,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-08-10T06:10:18.598Z] {"timestamp":1786342217784,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:10:18.598Z] {"timestamp":1786342217833,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:10:18.778Z] {"timestamp":1786342218650,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:10:18.778Z] {"timestamp":1786342218654,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:10:19.244Z] {"timestamp":1786342218931,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:10:19.244Z] {"timestamp":1786342218937,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:10:21.289Z] {"timestamp":1786342219283,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:10:21.289Z] {"timestamp":1786342219287,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:10:21.289Z] {"timestamp":1786342221031,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-10T06:10:21.289Z] {"timestamp":1786342221248,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-10T06:10:21.289Z] {"timestamp":1786342221281,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-10T06:11:07.348Z] {"timestamp":1786342267060,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:07.348Z] {"timestamp":1786342267206,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:07.348Z] {"timestamp":1786342267207,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Header.tsx"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267343,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267343,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Hero.tsx"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267469,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267469,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267525,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267525,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Skills.tsx"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267578,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267578,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267636,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267636,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267698,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267698,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Contact.tsx"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267829,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:11:09.295Z] {"timestamp":1786342267829,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-08-10T06:11:47.577Z] {"timestamp":1786342305569,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:11:47.577Z] {"timestamp":1786342305578,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:12:11.607Z] {"timestamp":1786342329700,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:12:11.607Z] {"timestamp":1786342329700,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Header.tsx"],"stack":null}
+[2026-08-10T06:12:19.669Z] {"timestamp":1786342337637,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:12:19.669Z] {"timestamp":1786342337723,"level":"DEBUG","args":["[vite] connected."],"stack":null}

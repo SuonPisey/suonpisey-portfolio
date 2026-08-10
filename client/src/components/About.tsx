@@ -37,9 +37,9 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-20 md:py-32 bg-secondary/30">
+    <section id="about" className="py-16 md:py-32 bg-secondary/30">
       <div className="container" ref={ref}>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
           {/* Left Content */}
           <motion.div
             variants={fadeInLeftVariants}
@@ -51,7 +51,7 @@ export default function About() {
             </motion.h2>
 
             <motion.p
-              className="text-lg text-foreground/70 mb-6 leading-relaxed"
+              className="text-base md:text-lg text-foreground/70 mb-5 md:mb-6 leading-relaxed"
               variants={itemVariants}
             >
               I'm a passionate full-stack developer based in Cambodia with a
@@ -62,7 +62,7 @@ export default function About() {
             </motion.p>
 
             <motion.p
-              className="text-lg text-foreground/70 mb-8 leading-relaxed"
+              className="text-base md:text-lg text-foreground/70 mb-8 leading-relaxed"
               variants={itemVariants}
             >
               My journey in web development started with a curiosity about how
@@ -107,7 +107,7 @@ export default function About() {
 
           {/* Right Content - Stats */}
           <motion.div
-            className="grid grid-cols-2 gap-6"
+            className="grid grid-cols-2 gap-3 sm:gap-6"
             variants={staggerContainerVariants}
             initial="hidden"
             animate={isVisible ? "visible" : "hidden"}
@@ -115,7 +115,7 @@ export default function About() {
             {stats.map((stat) => (
               <motion.div
                 key={stat.label}
-                className="bg-white dark:bg-card p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300"
+                className="bg-white dark:bg-card p-4 sm:p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300"
                 variants={gridItemVariants}
                 whileHover={{
                   scale: 1.05,
@@ -124,7 +124,7 @@ export default function About() {
                 whileTap={{ scale: 0.95 }}
               >
                 <motion.div
-                  className="text-4xl font-bold text-primary mb-2"
+                  className="text-3xl sm:text-4xl font-bold text-primary mb-2"
                   initial={{ opacity: 0, scale: 0 }}
                   animate={
                     isVisible
@@ -136,7 +136,7 @@ export default function About() {
                   {stat.value}
                 </motion.div>
                 <motion.p
-                  className="text-foreground/70 font-medium"
+                  className="text-sm sm:text-base text-foreground/70 font-medium"
                   variants={itemVariants}
                 >
                   {stat.label}

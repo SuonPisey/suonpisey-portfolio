@@ -35,10 +35,10 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 md:py-32 bg-background" ref={ref}>
+    <section id="skills" className="py-16 md:py-32 bg-background" ref={ref}>
       <div className="container">
         <motion.div
-          className="mb-16"
+          className="mb-10 md:mb-16"
           variants={containerVariants}
           initial="hidden"
           animate={isVisible ? 'visible' : 'hidden'}
@@ -47,7 +47,7 @@ export default function Skills() {
             Skills & Expertise
           </motion.h2>
           <motion.p
-            className="text-lg text-foreground/60 max-w-2xl"
+            className="text-base md:text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
             A comprehensive toolkit of technologies and methodologies that I use to build robust, scalable applications.
@@ -55,7 +55,7 @@ export default function Skills() {
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 mb-14 md:mb-20"
           variants={staggerContainerVariants}
           initial="hidden"
           animate={isVisible ? 'visible' : 'hidden'}
@@ -70,7 +70,7 @@ export default function Skills() {
                 whileHover={{ y: -10 }}
               >
                 <motion.div
-                  className="bg-white dark:bg-card rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 h-full border border-border/50 hover:border-primary/50"
+                  className="bg-white dark:bg-card rounded-xl p-6 md:p-8 shadow-sm hover:shadow-lg transition-all duration-300 h-full border border-border/50 hover:border-primary/50"
                   whileHover={{
                     boxShadow: '0 20px 25px rgba(0, 212, 255, 0.15)',
                   }}
@@ -129,7 +129,7 @@ export default function Skills() {
 
         {/* Skills Pattern Background */}
         <motion.div
-          className="mt-20 pt-20 border-t border-border/50"
+          className="mt-14 pt-14 md:mt-20 md:pt-20 border-t border-border/50"
           initial={{ opacity: 0 }}
           animate={isVisible ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.6 }}
