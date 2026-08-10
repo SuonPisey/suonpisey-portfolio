@@ -1,4 +1,4 @@
-import { Briefcase, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import {
@@ -14,45 +14,33 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
-      title: 'Senior Full-Stack Developer',
-      company: 'Tech Innovations Ltd',
-      period: '2023 - Present',
-      location: 'Phnom Penh, Cambodia',
-      description: 'Leading the development of scalable web applications, mentoring junior developers, and architecting microservices solutions.',
-      highlights: [
-        'Architected and deployed 5+ production applications',
-        'Mentored 3 junior developers',
-        'Improved application performance by 40%',
-        'Led migration from monolith to microservices',
-      ],
+      title: 'Web Application Developer',
+      company: 'Hanuman Beverages',
+      period: '2026 - Present',
+      logo: '/assets/logo/hanuman.jpeg',
+      logoFallback: 'HB',
+      description:
+        'As a Web Application Developer, I design and build complete web applications using Angular for the frontend and .NET for the backend. I develop and integrate RESTful APIs to ensure seamless communication between systems. My experience includes managing Oracle and PostgreSQL databases with a focus on performance, scalability, and reliability. I implement secure authentication using JWT and manage role-based access control to protect application resources. Working closely with cross-functional teams, I help plan, develop, test, and deploy scalable software solutions. I use Git, Visual Studio, and Azure DevOps for version control, collaboration, and project management. My goal is to create efficient, secure, and user-friendly applications that meet business requirements and deliver a high-quality user experience.',
     },
     {
       id: 2,
-      title: 'Full-Stack Developer',
-      company: 'Digital Solutions Co.',
-      period: '2021 - 2023',
-      location: 'Phnom Penh, Cambodia',
-      description: 'Developed and maintained full-stack applications for various clients, focusing on user experience and code quality.',
-      highlights: [
-        'Built 8+ client projects from scratch',
-        'Implemented real-time features using WebSockets',
-        'Optimized database queries reducing load time by 50%',
-        'Established coding standards and best practices',
-      ],
+      title: 'Web Application Developer',
+      company: 'Online ISP',
+      period: '2024 - 2026',
+      logo: '/assets/logo/onlineisp.jpeg',
+      logoFallback: 'O',
+      description:
+        'As a Full Stack Developer, I designed and built complete web applications using Next.js for the frontend and Spring Boot for the backend. I developed and integrated RESTful APIs to ensure seamless communication between systems. My experience included managing Oracle and PostgreSQL databases with a focus on performance and reliability. I implemented secure authentication using JWT and handled role-based access control. Working closely with cross-functional teams, I helped plan, test, and deliver scalable software solutions. I used Git, Maven, and Gradle for version control and project management. My goal was to create efficient, secure, and user-friendly applications that met business needs.',
     },
     {
       id: 3,
-      title: 'Junior Developer Intern',
-      company: 'Web Development Studio',
-      period: '2020 - 2021',
-      location: 'Phnom Penh, Cambodia',
-      description: 'Started my career building responsive websites and learning modern web development practices.',
-      highlights: [
-        'Built 15+ responsive websites',
-        'Learned React, Node.js, and database design',
-        'Collaborated with designers and product managers',
-        'Participated in code reviews and team meetings',
-      ],
+      title: 'Frontend Developer & Technical Support',
+      company: 'Cubetiq Solution',
+      period: '2022 - 2024',
+      logo: '/assets/logo/cubetiq.png',
+      logoFallback: 'C',
+      description:
+        'Progressed from Technical Support to Frontend Developer, providing system support and troubleshooting while developing responsive web applications with React and Next.js, integrating APIs, optimizing performance, and collaborating with cross-functional teams to deliver high-quality solutions.',
     },
   ];
 
@@ -127,16 +115,30 @@ export default function Experience() {
                     initial="hidden"
                     animate="visible"
                   >
-                    <motion.div variants={itemVariants}>
-                      <motion.h3
-                        className="text-2xl font-bold text-foreground mb-2"
-                        whileHover={{ color: '#00d4ff' }}
-                      >
-                        {exp.title}
-                      </motion.h3>
-                      <motion.p className="text-lg text-primary font-semibold" variants={itemVariants}>
-                        {exp.company}
-                      </motion.p>
+                    <motion.div className="flex items-center gap-4" variants={itemVariants}>
+                      <div className="relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border bg-background text-sm font-bold text-primary shadow-sm">
+                        <span aria-hidden="true">{exp.logoFallback}</span>
+                        <img
+                          src={exp.logo}
+                          alt={`${exp.company} logo`}
+                          className="absolute inset-0 h-full w-full bg-white object-contain p-1.5"
+                          loading="lazy"
+                          onError={(event) => {
+                            event.currentTarget.style.display = 'none';
+                          }}
+                        />
+                      </div>
+                      <div>
+                        <motion.h3
+                          className="text-2xl font-bold text-foreground mb-2"
+                          whileHover={{ color: '#00d4ff' }}
+                        >
+                          {exp.title}
+                        </motion.h3>
+                        <motion.p className="text-lg text-primary font-semibold" variants={itemVariants}>
+                          {exp.company}
+                        </motion.p>
+                      </div>
                     </motion.div>
                     <motion.div
                       className="flex items-center gap-2 text-foreground/60 whitespace-nowrap"
@@ -149,42 +151,11 @@ export default function Experience() {
                   </motion.div>
 
                   <motion.p
-                    className="text-foreground/60 mb-4 flex items-center gap-2"
-                    variants={itemVariants}
-                  >
-                    <Briefcase className="w-4 h-4" />
-                    {exp.location}
-                  </motion.p>
-
-                  <motion.p
-                    className="text-foreground/70 mb-6 leading-relaxed"
+                    className="text-foreground/70 leading-relaxed"
                     variants={itemVariants}
                   >
                     {exp.description}
                   </motion.p>
-
-                  {/* Highlights */}
-                  <motion.div
-                    className="space-y-3"
-                    variants={containerVariants}
-                    initial="hidden"
-                    animate="visible"
-                  >
-                    {exp.highlights.map((highlight, i) => (
-                      <motion.div
-                        key={i}
-                        className="flex items-start gap-3"
-                        variants={itemVariants}
-                        whileHover={{ x: 5 }}
-                      >
-                        <motion.div
-                          className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"
-                          whileHover={{ scale: 1.5 }}
-                        />
-                        <span className="text-foreground/70">{highlight}</span>
-                      </motion.div>
-                    ))}
-                  </motion.div>
                 </motion.div>
               </div>
             </motion.div>

@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import {
@@ -12,9 +12,7 @@ import {
 
 export default function Hero() {
   const socialIcons = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:pisey@example.com", label: "Email" },
+    { icon: Mail, href: "mailto:suonpisey017@gmail.com", label: "Email" },
   ];
 
   return (

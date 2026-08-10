@@ -1,13 +1,13 @@
-import { ExternalLink, Github } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { motion } from 'framer-motion';
-import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import { ExternalLink, Github } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import {
   staggerContainerVariants,
   gridItemVariants,
   containerVariants,
   itemVariants,
-} from '@/lib/animations';
+} from "@/lib/animations";
 
 export default function Projects() {
   const { ref, isVisible } = useScrollAnimation();
@@ -15,57 +15,81 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform with real-time inventory management, payment processing, and admin dashboard.',
-      technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-      image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: "E-Commerce Platform",
+      description:
+        "A full-stack e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Stripe",
+        "PostgreSQL",
+        "Tailwind CSS",
+      ],
+      image:
+        "https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp",
+      liveUrl: "#",
+      githubUrl: "#",
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, team collaboration features, and analytics.',
-      technologies: ['React', 'Firebase', 'Redux', 'Material-UI', 'WebSockets'],
-      image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: "Task Management App",
+      description:
+        "A collaborative task management application with real-time updates, team collaboration features, and analytics.",
+      technologies: ["React", "Firebase", "Redux", "Material-UI", "WebSockets"],
+      image:
+        "https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp",
+      liveUrl: "#",
+      githubUrl: "#",
     },
     {
       id: 3,
-      title: 'AI Content Generator',
-      description: 'An intelligent content generation tool powered by OpenAI API with customizable templates and batch processing.',
-      technologies: ['Next.js', 'OpenAI API', 'PostgreSQL', 'Vercel', 'Stripe'],
-      image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: "AI Content Generator",
+      description:
+        "An intelligent content generation tool powered by OpenAI API with customizable templates and batch processing.",
+      technologies: ["Next.js", "OpenAI API", "PostgreSQL", "Vercel", "Stripe"],
+      image:
+        "https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp",
+      liveUrl: "#",
+      githubUrl: "#",
     },
     {
       id: 4,
-      title: 'Social Media Dashboard',
-      description: 'A comprehensive dashboard for managing multiple social media accounts with analytics and scheduling features.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Chart.js', 'Socket.io'],
-      image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: "Social Media Dashboard",
+      description:
+        "A comprehensive dashboard for managing multiple social media accounts with analytics and scheduling features.",
+      technologies: ["React", "Node.js", "MongoDB", "Chart.js", "Socket.io"],
+      image:
+        "https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp",
+      liveUrl: "#",
+      githubUrl: "#",
     },
     {
       id: 5,
-      title: 'Weather Forecast App',
-      description: 'A real-time weather application with location-based forecasts, historical data, and beautiful visualizations.',
-      technologies: ['React', 'TypeScript', 'OpenWeather API', 'Mapbox', 'Tailwind CSS'],
-      image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: "Weather Forecast App",
+      description:
+        "A real-time weather application with location-based forecasts, historical data, and beautiful visualizations.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "OpenWeather API",
+        "Mapbox",
+        "Tailwind CSS",
+      ],
+      image:
+        "https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp",
+      liveUrl: "#",
+      githubUrl: "#",
     },
     {
       id: 6,
-      title: 'Blog Platform',
-      description: 'A modern blogging platform with markdown support, SEO optimization, and comment system.',
-      technologies: ['Next.js', 'MDX', 'Prisma', 'PostgreSQL', 'Vercel'],
-      image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: "Blog Platform",
+      description:
+        "A modern blogging platform with markdown support, SEO optimization, and comment system.",
+      technologies: ["Next.js", "MDX", "Prisma", "PostgreSQL", "Vercel"],
+      image:
+        "https://d2xsxph8kpxj0f.cloudfront.net/310519663367800636/dZ5C6w7DuDfkAPu4c5yJQd/projects-pattern-JyvZjdWjYuRXwJ9KXgsnpg.webp",
+      liveUrl: "#",
+      githubUrl: "#",
     },
   ];
 
@@ -76,7 +100,7 @@ export default function Projects() {
           className="mb-16"
           variants={containerVariants}
           initial="hidden"
-          animate={isVisible ? 'visible' : 'hidden'}
+          animate={isVisible ? "visible" : "hidden"}
         >
           <motion.h2 className="section-title" variants={itemVariants}>
             Featured Projects
@@ -85,7 +109,8 @@ export default function Projects() {
             className="text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
-            A selection of projects that showcase my skills in full-stack development, problem-solving, and user experience design.
+            A selection of projects that showcase my skills in full-stack
+            development, problem-solving, and user experience design.
           </motion.p>
         </motion.div>
 
@@ -93,7 +118,7 @@ export default function Projects() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16"
           variants={staggerContainerVariants}
           initial="hidden"
-          animate={isVisible ? 'visible' : 'hidden'}
+          animate={isVisible ? "visible" : "hidden"}
         >
           {projects.map((project) => (
             <motion.div
@@ -105,7 +130,7 @@ export default function Projects() {
               <motion.div
                 className="bg-white dark:bg-card rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-border/50 hover:border-primary/50"
                 whileHover={{
-                  boxShadow: '0 20px 25px rgba(0, 212, 255, 0.15)',
+                  boxShadow: "0 20px 25px rgba(0, 212, 255, 0.15)",
                 }}
               >
                 {/* Image */}
@@ -154,7 +179,10 @@ export default function Projects() {
                         <motion.span
                           key={tech}
                           className="px-3 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full"
-                          whileHover={{ scale: 1.1, backgroundColor: 'rgba(0, 212, 255, 0.2)' }}
+                          whileHover={{
+                            scale: 1.1,
+                            backgroundColor: "rgba(0, 212, 255, 0.2)",
+                          }}
                           variants={itemVariants}
                         >
                           {tech}
@@ -182,9 +210,29 @@ export default function Projects() {
                         className="w-full flex items-center justify-center gap-2"
                         asChild
                       >
-                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                        <a
+                          href={
+                            project.liveUrl === "#"
+                              ? undefined
+                              : project.liveUrl
+                          }
+                          aria-disabled={project.liveUrl === "#"}
+                          onClick={
+                            project.liveUrl === "#"
+                              ? (event) => event.preventDefault()
+                              : undefined
+                          }
+                          target={
+                            project.liveUrl === "#" ? undefined : "_blank"
+                          }
+                          rel={
+                            project.liveUrl === "#"
+                              ? undefined
+                              : "noopener noreferrer"
+                          }
+                        >
                           <ExternalLink className="w-4 h-4" />
-                          Live
+                          {project.liveUrl === "#" ? "Coming soon" : "Live"}
                         </a>
                       </Button>
                     </motion.div>
@@ -200,9 +248,29 @@ export default function Projects() {
                         className="w-full flex items-center justify-center gap-2"
                         asChild
                       >
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <a
+                          href={
+                            project.githubUrl === "#"
+                              ? undefined
+                              : project.githubUrl
+                          }
+                          aria-disabled={project.githubUrl === "#"}
+                          onClick={
+                            project.githubUrl === "#"
+                              ? (event) => event.preventDefault()
+                              : undefined
+                          }
+                          target={
+                            project.githubUrl === "#" ? undefined : "_blank"
+                          }
+                          rel={
+                            project.githubUrl === "#"
+                              ? undefined
+                              : "noopener noreferrer"
+                          }
+                        >
                           <Github className="w-4 h-4" />
-                          Code
+                          {project.githubUrl === "#" ? "Private" : "Code"}
                         </a>
                       </Button>
                     </motion.div>
@@ -220,10 +288,7 @@ export default function Projects() {
           animate={isVisible ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 text-white font-semibold"

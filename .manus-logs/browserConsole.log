@@ -135,3 +135,62 @@
 [2026-07-22T07:58:37.932Z] {"timestamp":1784707117678,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
 [2026-07-22T07:58:39.931Z] {"timestamp":1784707119392,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
 [2026-07-22T07:58:41.932Z] {"timestamp":1784707120959,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-10T05:41:16.244Z] {"timestamp":1786340474241,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T05:41:16.244Z] {"timestamp":1786340474254,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T05:41:54.256Z] {"timestamp":1786340513172,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-08-10T05:41:54.256Z] {"timestamp":1786340513173,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:43:32.244Z] {"timestamp":1786340611774,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:43:32.244Z] {"timestamp":1786340611775,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:43:36.243Z] {"timestamp":1786340614256,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:43:36.243Z] {"timestamp":1786340614256,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:43:40.244Z] {"timestamp":1786340619540,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:43:40.244Z] {"timestamp":1786340619540,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:43:44.247Z] {"timestamp":1786340622799,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:43:44.247Z] {"timestamp":1786340622799,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:43:46.243Z] {"timestamp":1786340624404,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:43:46.243Z] {"timestamp":1786340624404,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:43:46.243Z] {"timestamp":1786340625650,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:43:46.243Z] {"timestamp":1786340625650,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:43:56.243Z] {"timestamp":1786340634613,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:43:56.243Z] {"timestamp":1786340634613,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:14.243Z] {"timestamp":1786340652481,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:14.243Z] {"timestamp":1786340652482,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:20.244Z] {"timestamp":1786340658755,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:20.244Z] {"timestamp":1786340658755,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:26.243Z] {"timestamp":1786340665406,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:26.243Z] {"timestamp":1786340665406,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:30.243Z] {"timestamp":1786340668392,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:30.244Z] {"timestamp":1786340668392,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:30.244Z] {"timestamp":1786340669379,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:30.244Z] {"timestamp":1786340669379,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:32.243Z] {"timestamp":1786340671305,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:32.243Z] {"timestamp":1786340671305,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:36.243Z] {"timestamp":1786340676010,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:36.243Z] {"timestamp":1786340676011,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:38.244Z] {"timestamp":1786340677375,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:38.244Z] {"timestamp":1786340677375,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:42.243Z] {"timestamp":1786340680697,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:42.243Z] {"timestamp":1786340680697,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:42.243Z] {"timestamp":1786340681898,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:42.243Z] {"timestamp":1786340681898,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:46.243Z] {"timestamp":1786340684727,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:46.243Z] {"timestamp":1786340684728,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:48.244Z] {"timestamp":1786340687316,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:48.244Z] {"timestamp":1786340687316,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:52.379Z] {"timestamp":1786340691980,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:52.379Z] {"timestamp":1786340691981,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:44:54.243Z] {"timestamp":1786340693185,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:44:54.243Z] {"timestamp":1786340693185,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:46:26.309Z] {"timestamp":1786340785349,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:46:26.309Z] {"timestamp":1786340785349,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-10T05:47:12.320Z] {"timestamp":1786340832264,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:47:12.320Z] {"timestamp":1786340832264,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Header.tsx"],"stack":null}
+[2026-08-10T05:49:44.311Z] {"timestamp":1786340984119,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:49:44.311Z] {"timestamp":1786340984121,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-10T05:53:01.443Z] {"timestamp":1786341150100,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T05:53:01.445Z] {"timestamp":1786341150102,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-10T06:01:24.320Z] {"timestamp":1786341683923,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-10T06:01:24.320Z] {"timestamp":1786341683925,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-10T06:01:52.681Z] {"timestamp":1786341710677,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-10T06:01:52.681Z] {"timestamp":1786341710705,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-10T06:01:52.681Z] {"timestamp":1786341711259,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}

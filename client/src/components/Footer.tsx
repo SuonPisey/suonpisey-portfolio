@@ -1,29 +1,26 @@
-import { Github, Linkedin, Twitter, Mail, ArrowUp } from 'lucide-react';
-import { motion } from 'framer-motion';
-import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import { Mail, ArrowUp } from "lucide-react";
+import { motion } from "framer-motion";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import {
   containerVariants,
   itemVariants,
   staggerContainerVariants,
-} from '@/lib/animations';
+} from "@/lib/animations";
 
 export default function Footer() {
   const { ref, isVisible } = useScrollAnimation();
   const currentYear = new Date().getFullYear();
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:pisey@example.com', label: 'Email' },
+    { icon: Mail, href: "mailto:suonpisey017@gmail.com", label: "Email" },
   ];
 
-  const navItems = ['About', 'Skills', 'Projects', 'Experience', 'Contact'];
-  const resourceItems = ['Blog', 'Resume', 'Portfolio', 'Case Studies'];
+  const navItems = ["About", "Skills", "Projects", "Experience", "Contact"];
+  const resourceItems = [{ label: "Resume", href: "/resume.pdf" }];
 
   return (
     <footer className="bg-background border-t border-border/50" ref={ref}>
@@ -33,7 +30,7 @@ export default function Footer() {
           className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12"
           variants={staggerContainerVariants}
           initial="hidden"
-          animate={isVisible ? 'visible' : 'hidden'}
+          animate={isVisible ? "visible" : "hidden"}
         >
           {/* Brand */}
           <motion.div variants={itemVariants}>
@@ -46,19 +43,22 @@ export default function Footer() {
                 whileHover={{
                   scale: 1.1,
                   rotate: 360,
-                  boxShadow: '0 0 20px rgba(0, 212, 255, 0.5)',
+                  boxShadow: "0 0 20px rgba(0, 212, 255, 0.5)",
                 }}
                 transition={{ duration: 0.5 }}
               >
                 PS
               </motion.div>
-              <span className="font-bold text-lg text-foreground">Pisey Suon</span>
+              <span className="font-bold text-lg text-foreground">
+                Pisey Suon
+              </span>
             </motion.div>
             <motion.p
               className="text-foreground/60 text-sm leading-relaxed"
               variants={itemVariants}
             >
-              Full-Stack Developer crafting beautiful and functional web applications.
+              Full-Stack Developer crafting beautiful and functional web
+              applications.
             </motion.p>
           </motion.div>
 
@@ -66,7 +66,7 @@ export default function Footer() {
           <motion.div variants={itemVariants}>
             <motion.h3
               className="font-semibold text-foreground mb-4"
-              whileHover={{ color: '#00d4ff' }}
+              whileHover={{ color: "#00d4ff" }}
             >
               Navigation
             </motion.h3>
@@ -81,7 +81,7 @@ export default function Footer() {
                   <motion.a
                     href={`#${item.toLowerCase()}`}
                     className="text-foreground/60 hover:text-primary transition-colors duration-300 text-sm"
-                    whileHover={{ x: 5, color: '#00d4ff' }}
+                    whileHover={{ x: 5, color: "#00d4ff" }}
                   >
                     {item}
                   </motion.a>
@@ -94,7 +94,7 @@ export default function Footer() {
           <motion.div variants={itemVariants}>
             <motion.h3
               className="font-semibold text-foreground mb-4"
-              whileHover={{ color: '#00d4ff' }}
+              whileHover={{ color: "#00d4ff" }}
             >
               Resources
             </motion.h3>
@@ -105,13 +105,13 @@ export default function Footer() {
               animate="visible"
             >
               {resourceItems.map((item) => (
-                <motion.li key={item} variants={itemVariants}>
+                <motion.li key={item.label} variants={itemVariants}>
                   <motion.a
-                    href="#"
+                    href={item.href}
                     className="text-foreground/60 hover:text-primary transition-colors duration-300 text-sm"
-                    whileHover={{ x: 5, color: '#00d4ff' }}
+                    whileHover={{ x: 5, color: "#00d4ff" }}
                   >
-                    {item}
+                    {item.label}
                   </motion.a>
                 </motion.li>
               ))}
@@ -122,7 +122,7 @@ export default function Footer() {
           <motion.div variants={itemVariants}>
             <motion.h3
               className="font-semibold text-foreground mb-4"
-              whileHover={{ color: '#00d4ff' }}
+              whileHover={{ color: "#00d4ff" }}
             >
               Connect
             </motion.h3>
@@ -145,7 +145,7 @@ export default function Footer() {
                     whileHover={{
                       scale: 1.2,
                       rotate: 10,
-                      backgroundColor: 'rgba(0, 212, 255, 0.1)',
+                      backgroundColor: "rgba(0, 212, 255, 0.1)",
                     }}
                     whileTap={{ scale: 0.9 }}
                     aria-label={social.label}
@@ -172,7 +172,7 @@ export default function Footer() {
           className="flex flex-col md:flex-row items-center justify-between gap-4"
           variants={containerVariants}
           initial="hidden"
-          animate={isVisible ? 'visible' : 'hidden'}
+          animate={isVisible ? "visible" : "hidden"}
         >
           <motion.p
             className="text-foreground/60 text-sm"
@@ -188,7 +188,7 @@ export default function Footer() {
             variants={itemVariants}
             whileHover={{
               scale: 1.1,
-              backgroundColor: 'rgba(0, 212, 255, 0.1)',
+              backgroundColor: "rgba(0, 212, 255, 0.1)",
             }}
             whileTap={{ scale: 0.9 }}
             aria-label="Scroll to top"

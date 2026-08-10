@@ -1,27 +1,27 @@
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { useState } from 'react';
-import { toast } from 'sonner';
-import { motion } from 'framer-motion';
-import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { toast } from "sonner";
+import { motion } from "framer-motion";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import {
   containerVariants,
   itemVariants,
   staggerContainerVariants,
   gridItemVariants,
-} from '@/lib/animations';
+} from "@/lib/animations";
 
 export default function Contact() {
   const { ref, isVisible } = useScrollAnimation();
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -29,36 +29,39 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      toast.success('Message sent successfully! I will get back to you soon.');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setIsSubmitting(false);
-    }, 1000);
+    const body = [
+      `From: ${formData.name}`,
+      `Email: ${formData.email}`,
+      "",
+      formData.message,
+    ].join("\n");
+    const mailtoUrl = `mailto:suonpisey017@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
+
+    toast.info("Opening your email app with this message.");
+    window.location.href = mailtoUrl;
   };
 
   const contactInfo = [
     {
       icon: Mail,
-      label: 'Email',
-      value: 'pisey@example.com',
-      href: 'mailto:pisey@example.com',
+      label: "Email",
+      value: "suonpisey017@gmail.com",
+      href: "mailto:suonpisey017@gmail.com",
     },
     {
       icon: Phone,
-      label: 'Phone',
-      value: '+855 (12) 345-6789',
-      href: 'tel:+85512345678',
+      label: "Phone",
+      value: "+855 (17) 783-868",
+      href: "tel:+85517783868",
     },
     {
       icon: MapPin,
-      label: 'Location',
-      value: 'Phnom Penh, Cambodia',
-      href: '#',
+      label: "Location",
+      value: "Phnom Penh, Cambodia",
+      href: "https://www.google.com/maps/search/?api=1&query=Phnom+Penh%2C+Cambodia",
     },
   ];
 
@@ -69,7 +72,7 @@ export default function Contact() {
           className="mb-16"
           variants={containerVariants}
           initial="hidden"
-          animate={isVisible ? 'visible' : 'hidden'}
+          animate={isVisible ? "visible" : "hidden"}
         >
           <motion.h2 className="section-title" variants={itemVariants}>
             Get In Touch
@@ -78,7 +81,8 @@ export default function Contact() {
             className="text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
-            Have a project in mind or want to collaborate? I'd love to hear from you. Feel free to reach out!
+            Have a project in mind or want to collaborate? I'd love to hear from
+            you. Feel free to reach out!
           </motion.p>
         </motion.div>
 
@@ -86,7 +90,7 @@ export default function Contact() {
           className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12"
           variants={staggerContainerVariants}
           initial="hidden"
-          animate={isVisible ? 'visible' : 'hidden'}
+          animate={isVisible ? "visible" : "hidden"}
         >
           {/* Contact Info Cards */}
           {contactInfo.map((info) => {
@@ -102,7 +106,7 @@ export default function Contact() {
                 <motion.div
                   className="bg-white dark:bg-card rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-border/50 hover:border-primary/50 text-center"
                   whileHover={{
-                    boxShadow: '0 20px 25px rgba(0, 212, 255, 0.15)',
+                    boxShadow: "0 20px 25px rgba(0, 212, 255, 0.15)",
                   }}
                 >
                   <motion.div
@@ -110,7 +114,7 @@ export default function Contact() {
                     whileHover={{
                       scale: 1.2,
                       rotate: 360,
-                      backgroundColor: 'rgba(0, 212, 255, 0.2)',
+                      backgroundColor: "rgba(0, 212, 255, 0.2)",
                     }}
                     transition={{ duration: 0.5 }}
                   >
@@ -118,7 +122,7 @@ export default function Contact() {
                   </motion.div>
                   <motion.h3
                     className="text-lg font-semibold text-foreground mb-2"
-                    whileHover={{ color: '#00d4ff' }}
+                    whileHover={{ color: "#00d4ff" }}
                   >
                     {info.label}
                   </motion.h3>
@@ -144,17 +148,22 @@ export default function Contact() {
           <motion.div
             className="bg-white dark:bg-card rounded-xl p-8 md:p-12 shadow-sm border border-border/50"
             whileHover={{
-              boxShadow: '0 20px 25px rgba(0, 212, 255, 0.1)',
+              boxShadow: "0 20px 25px rgba(0, 212, 255, 0.1)",
             }}
           >
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                animate={
+                  isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+                }
                 transition={{ duration: 0.4, delay: 0.1 }}
               >
-                <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-3">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-semibold text-foreground mb-3"
+                >
                   Full Name
                 </label>
                 <motion.input
@@ -173,10 +182,15 @@ export default function Contact() {
               {/* Email */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                animate={
+                  isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+                }
                 transition={{ duration: 0.4, delay: 0.15 }}
               >
-                <label htmlFor="email" className="block text-sm font-semibold text-foreground mb-3">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-semibold text-foreground mb-3"
+                >
                   Email Address
                 </label>
                 <motion.input
@@ -195,10 +209,15 @@ export default function Contact() {
               {/* Subject */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                animate={
+                  isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+                }
                 transition={{ duration: 0.4, delay: 0.2 }}
               >
-                <label htmlFor="subject" className="block text-sm font-semibold text-foreground mb-3">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm font-semibold text-foreground mb-3"
+                >
                   Subject
                 </label>
                 <motion.input
@@ -217,10 +236,15 @@ export default function Contact() {
               {/* Message */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                animate={
+                  isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+                }
                 transition={{ duration: 0.4, delay: 0.25 }}
               >
-                <label htmlFor="message" className="block text-sm font-semibold text-foreground mb-3">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-semibold text-foreground mb-3"
+                >
                   Message
                 </label>
                 <motion.textarea
@@ -239,7 +263,9 @@ export default function Contact() {
               {/* Submit Button */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                animate={
+                  isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+                }
                 transition={{ duration: 0.4, delay: 0.3 }}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
@@ -247,24 +273,10 @@ export default function Contact() {
                 <Button
                   type="submit"
                   size="lg"
-                  disabled={isSubmitting}
                   className="w-full bg-primary hover:bg-primary/90 text-white font-semibold flex items-center justify-center gap-2"
                 >
-                  {isSubmitting ? (
-                    <>
-                      <motion.div
-                        className="w-4 h-4 border-2 border-white border-t-transparent rounded-full"
-                        animate={{ rotate: 360 }}
-                        transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
-                      />
-                      Sending...
-                    </>
-                  ) : (
-                    <>
-                      <Send className="w-4 h-4" />
-                      Send Message
-                    </>
-                  )}
+                  <Send className="w-4 h-4" />
+                  Compose Email
                 </Button>
               </motion.div>
             </form>
