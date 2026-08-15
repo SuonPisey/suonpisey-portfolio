@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { LoaderCircle, Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { toast } from "sonner";
@@ -19,6 +19,7 @@ export default function Contact() {
     subject: "",
     message: "",
   });
+  const [isSending, setIsSending] = useState(false);
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
@@ -29,19 +30,36 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (isSending) return;
 
-    const body = [
-      `From: ${formData.name}`,
-      `Email: ${formData.email}`,
-      "",
-      formData.message,
-    ].join("\n");
-    const mailtoUrl = `mailto:suonpisey017@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
+    setIsSending(true);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    toast.info("Opening your email app with this message.");
-    window.location.href = mailtoUrl;
+      const result = (await response.json().catch(() => null)) as {
+        error?: string;
+      } | null;
+      if (!response.ok) {
+        throw new Error(result?.error || "Unable to send your message.");
+      }
+
+      toast.success("Your message was sent successfully!");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      toast.error(
+        error instanceof Error
+          ? error.message
+          : "Unable to send your message. Please try again.",
+      );
+    } finally {
+      setIsSending(false);
+    }
   };
 
   const contactInfo = [
@@ -268,11 +286,16 @@ export default function Contact() {
               >
                 <Button
                   type="submit"
+                  disabled={isSending}
                   size="lg"
                   className="w-full bg-primary hover:bg-primary/90 text-white font-semibold flex items-center justify-center gap-2"
                 >
-                  <Send className="w-4 h-4" />
-                  Compose Email
+                  {isSending ? (
+                    <LoaderCircle className="h-4 w-4 animate-spin" />
+                  ) : (
+                    <Send className="h-4 w-4" />
+                  )}
+                  {isSending ? "Sending..." : "Send Message"}
                 </Button>
               </motion.div>
             </form>

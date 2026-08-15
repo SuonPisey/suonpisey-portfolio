@@ -125,6 +125,19 @@ npm run format
 ### Development Server
 The development server runs on `http://localhost:3000` with hot module replacement (HMR) for instant updates during development.
 
+### Contact Form Email
+
+The contact form sends email through Resend. Add these server-side environment variables locally or in your hosting dashboard:
+
+```bash
+RESEND_API_KEY=re_your_api_key
+CONTACT_TO_EMAIL=suonpisey017@gmail.com
+# Optional after verifying your own domain with Resend:
+CONTACT_FROM_EMAIL="Portfolio <contact@yourdomain.com>"
+```
+
+When `CONTACT_FROM_EMAIL` is omitted, the app uses Resend's testing sender. Restart `npm run dev` after changing environment variables so the local email API loads the new values.
+
 ## Project Structure
 
 ```

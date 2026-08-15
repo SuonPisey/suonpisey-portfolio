@@ -1,4 +1,4 @@
-import { Mail, ArrowUp } from "lucide-react";
+import { Mail, ArrowUp, Facebook, Send } from "lucide-react";
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import {
@@ -17,29 +17,47 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Mail, href: "mailto:suonpisey017@gmail.com", label: "Email" },
+    {
+      icon: Facebook,
+      href: "https://www.facebook.com/suon.pisey.293654",
+      label: "Facebook",
+    },
+    {
+      icon: Send,
+      href: "https://t.me/error_code_kh",
+      label: "Telegram",
+    },
   ];
 
   const navItems = ["About", "Skills", "Projects", "Experience", "Contact"];
-  const resourceItems = [{ label: "Resume", href: "/resumev2.pdf" }];
-
   return (
-    <footer className="bg-background border-t border-border/50" ref={ref}>
-      <div className="container py-12 md:py-16">
+    <footer
+      className="relative overflow-hidden border-t border-border/50 bg-card/40 dark:border-white/15 dark:bg-card/80"
+      ref={ref}
+    >
+      <div
+        className="pointer-events-none absolute -right-32 -top-32 h-80 w-80 rounded-full bg-primary/10 blur-3xl dark:bg-cyan-300/10"
+        aria-hidden="true"
+      />
+      <div className="container relative py-12 md:py-16">
         {/* Main Footer Content */}
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-10 md:mb-12"
+          className="mb-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr] lg:gap-16"
           variants={staggerContainerVariants}
           initial="hidden"
           animate={isVisible ? "visible" : "hidden"}
         >
           {/* Brand */}
-          <motion.div variants={itemVariants}>
+          <motion.div
+            className="max-w-sm sm:col-span-2 lg:col-span-1"
+            variants={itemVariants}
+          >
             <motion.div
-              className="flex items-center gap-2 mb-4"
+              className="mb-4 flex items-center gap-3"
               whileHover={{ x: 5 }}
             >
               <motion.div
-                className="w-9 h-9 overflow-hidden rounded-lg border border-border bg-white"
+                className="h-12 w-12 overflow-hidden rounded-full border-2 border-primary/30 bg-white shadow-lg shadow-primary/10"
                 whileHover={{
                   scale: 1.1,
                   rotate: 360,
@@ -47,31 +65,40 @@ export default function Footer() {
                 }}
                 transition={{ duration: 0.5 }}
               >
-                <img src="/assets/logo.jpg" alt="" className="h-full w-full object-cover" />
+                <img
+                  src="/assets/logo2.jpg"
+                  alt=""
+                  className="h-full w-full object-cover"
+                />
               </motion.div>
-              <span className="font-bold text-lg text-foreground">
-                Pisey Suon
-              </span>
+              <div>
+                <span className="block text-lg font-bold text-foreground">
+                  Pisey Suon
+                </span>
+                <span className="text-xs font-medium uppercase tracking-[0.18em] text-primary dark:text-cyan-300">
+                  Full-Stack Developer
+                </span>
+              </div>
             </motion.div>
             <motion.p
-              className="text-foreground/60 text-sm leading-relaxed"
+              className="text-sm leading-7 text-muted-foreground dark:text-foreground/75"
               variants={itemVariants}
             >
-              Full-Stack Developer crafting beautiful and functional web
-              applications.
+              I build thoughtful digital experiences where clean design meets
+              reliable, maintainable code.
             </motion.p>
           </motion.div>
 
           {/* Quick Links */}
           <motion.div variants={itemVariants}>
             <motion.h3
-              className="font-semibold text-foreground mb-4"
+              className="mb-5 text-sm font-semibold uppercase tracking-[0.16em] text-foreground"
               whileHover={{ color: "#00d4ff" }}
             >
               Navigation
             </motion.h3>
             <motion.ul
-              className="space-y-3"
+              className="space-y-3.5"
               variants={containerVariants}
               initial="hidden"
               animate="visible"
@@ -80,7 +107,7 @@ export default function Footer() {
                 <motion.li key={item} variants={itemVariants}>
                   <motion.a
                     href={`#${item.toLowerCase()}`}
-                    className="text-foreground/60 hover:text-primary transition-colors duration-300 text-sm"
+                    className="inline-flex items-center text-sm text-muted-foreground transition-colors duration-300 hover:text-primary dark:text-foreground/75 dark:hover:text-cyan-300"
                     whileHover={{ x: 5, color: "#00d4ff" }}
                   >
                     {item}
@@ -90,44 +117,16 @@ export default function Footer() {
             </motion.ul>
           </motion.div>
 
-          {/* Resources */}
-          <motion.div variants={itemVariants}>
-            <motion.h3
-              className="font-semibold text-foreground mb-4"
-              whileHover={{ color: "#00d4ff" }}
-            >
-              Resources
-            </motion.h3>
-            <motion.ul
-              className="space-y-3"
-              variants={containerVariants}
-              initial="hidden"
-              animate="visible"
-            >
-              {resourceItems.map((item) => (
-                <motion.li key={item.label} variants={itemVariants}>
-                  <motion.a
-                    href={item.href}
-                    className="text-foreground/60 hover:text-primary transition-colors duration-300 text-sm"
-                    whileHover={{ x: 5, color: "#00d4ff" }}
-                  >
-                    {item.label}
-                  </motion.a>
-                </motion.li>
-              ))}
-            </motion.ul>
-          </motion.div>
-
           {/* Social Links */}
           <motion.div variants={itemVariants}>
             <motion.h3
-              className="font-semibold text-foreground mb-4"
+              className="mb-5 text-sm font-semibold uppercase tracking-[0.16em] text-foreground"
               whileHover={{ color: "#00d4ff" }}
             >
               Connect
             </motion.h3>
             <motion.div
-              className="flex gap-3"
+              className="flex flex-col gap-2.5"
               variants={containerVariants}
               initial="hidden"
               animate="visible"
@@ -140,17 +139,17 @@ export default function Footer() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 bg-secondary hover:bg-primary/10 rounded-lg flex items-center justify-center transition-all duration-300"
+                    className="group flex min-h-11 items-center gap-3 rounded-xl border border-border/70 bg-background/60 px-4 text-sm font-medium text-muted-foreground shadow-sm transition-all duration-300 hover:border-primary/40 hover:bg-primary/10 hover:text-primary dark:border-white/15 dark:bg-white/[0.06] dark:text-foreground/80 dark:hover:border-cyan-300/50 dark:hover:bg-cyan-300/10 dark:hover:text-cyan-200"
                     variants={itemVariants}
                     whileHover={{
-                      scale: 1.2,
-                      rotate: 10,
+                      x: 4,
                       backgroundColor: "rgba(0, 212, 255, 0.1)",
                     }}
                     whileTap={{ scale: 0.9 }}
                     aria-label={social.label}
                   >
-                    <Icon className="w-5 h-5 text-foreground hover:text-primary" />
+                    <Icon className="h-4 w-4 text-primary dark:text-cyan-300" />
+                    <span>{social.label}</span>
                   </motion.a>
                 );
               })}
@@ -160,7 +159,7 @@ export default function Footer() {
 
         {/* Divider */}
         <motion.div
-          className="border-t border-border/50 my-8"
+          className="my-8 border-t border-border/60 dark:border-white/15"
           initial={{ scaleX: 0 }}
           animate={isVisible ? { scaleX: 1 } : { scaleX: 0 }}
           transition={{ duration: 0.6 }}
@@ -175,16 +174,16 @@ export default function Footer() {
           animate={isVisible ? "visible" : "hidden"}
         >
           <motion.p
-            className="text-center md:text-left text-foreground/60 text-sm"
+            className="text-center text-sm text-muted-foreground dark:text-foreground/75 md:text-left"
             variants={itemVariants}
           >
-            © {currentYear} Pisey Suon. All rights reserved.
+            © {currentYear} Pisey Suon. Designed and built with care.
           </motion.p>
 
           {/* Scroll to Top */}
           <motion.button
             onClick={scrollToTop}
-            className="flex min-h-11 min-w-11 items-center justify-center bg-secondary hover:bg-primary/10 rounded-lg transition-all duration-300"
+            className="flex min-h-11 items-center gap-2 rounded-full border border-border/70 bg-background/70 px-4 text-sm font-medium text-muted-foreground shadow-sm transition-all duration-300 hover:border-primary/40 hover:bg-primary/10 hover:text-primary dark:border-white/15 dark:bg-white/[0.06] dark:text-foreground/80 dark:hover:border-cyan-300/50 dark:hover:bg-cyan-300/10 dark:hover:text-cyan-200"
             variants={itemVariants}
             whileHover={{
               scale: 1.1,
@@ -199,6 +198,7 @@ export default function Footer() {
             >
               <ArrowUp className="w-5 h-5 text-foreground" />
             </motion.div>
+            <span>Back to top</span>
           </motion.button>
         </motion.div>
       </div>

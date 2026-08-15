@@ -2,6 +2,7 @@ import express from "express";
 import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
+import { parseContactMessage, sendContactEmail } from "./contactEmail.js";
 
 var __filename = fileURLToPath(import.meta.url);
 var __dirname = path.dirname(__filename);
@@ -9,6 +10,24 @@ var __dirname = path.dirname(__filename);
 async function startServer() {
   const app = express();
   const server = createServer(app);
+  app.use(express.json({ limit: "10kb" }));
+
+  app.post("/api/contact", async (req, res) => {
+    const contact = parseContactMessage(req.body);
+    if (!contact) {
+      res.status(400).json({ error: "Please provide valid form details." });
+      return;
+    }
+
+    try {
+      await sendContactEmail(contact);
+      res.json({ success: true });
+    } catch (error) {
+      console.error("Contact endpoint failed:", error);
+      res.status(500).json({ error: "Unable to send your message right now." });
+    }
+  });
+
   const staticPath =
     process.env.NODE_ENV === "production"
       ? path.resolve(__dirname, "public")

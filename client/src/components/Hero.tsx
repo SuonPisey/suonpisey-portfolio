@@ -1,4 +1,4 @@
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, Facebook, Mail, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import {
@@ -13,6 +13,12 @@ import {
 export default function Hero() {
   const socialIcons = [
     { icon: Mail, href: "mailto:suonpisey017@gmail.com", label: "Email" },
+    {
+      icon: Facebook,
+      href: "https://www.facebook.com/suon.pisey.293654",
+      label: "Facebook",
+    },
+    { icon: Send, href: "https://t.me/error_code_kh", label: "Telegram" },
   ];
 
   return (
@@ -166,7 +172,7 @@ export default function Hero() {
             <img
               src="/assets/logo.jpg"
               alt="Decorative Element"
-              className="absolute inset-0 w-full h-full object-contain rounded-2xl   "
+              className="absolute inset-0 w-full h-full object-contain rounded-2xl"
             />
           </motion.div>
         </motion.div>

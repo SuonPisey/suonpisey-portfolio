@@ -3,8 +3,9 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import fs from "node:fs";
 import path from "node:path";
-import { defineConfig, type Plugin, type ViteDevServer } from "vite";
+import { defineConfig, loadEnv, type Plugin, type ViteDevServer } from "vite";
 import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
+import { parseContactMessage, sendContactEmail } from "./server/contactEmail";
 
 // =============================================================================
 // Manus Debug Collector - Vite Plugin
@@ -162,7 +163,10 @@ function vitePluginStorageProxy(): Plugin {
           return;
         }
 
-        const forgeBaseUrl = (process.env.BUILT_IN_FORGE_API_URL || "").replace(/\/+$/, "");
+        const forgeBaseUrl = (process.env.BUILT_IN_FORGE_API_URL || "").replace(
+          /\/+$/,
+          "",
+        );
         const forgeKey = process.env.BUILT_IN_FORGE_API_KEY;
 
         if (!forgeBaseUrl || !forgeKey) {
@@ -172,7 +176,10 @@ function vitePluginStorageProxy(): Plugin {
         }
 
         try {
-          const forgeUrl = new URL("v1/storage/presign/get", forgeBaseUrl + "/");
+          const forgeUrl = new URL(
+            "v1/storage/presign/get",
+            forgeBaseUrl + "/",
+          );
           forgeUrl.searchParams.set("path", key);
 
           const forgeResp = await fetch(forgeUrl, {
@@ -203,39 +210,91 @@ function vitePluginStorageProxy(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+function vitePluginContactApi(): Plugin {
+  return {
+    name: "contact-api",
+    configureServer(server: ViteDevServer) {
+      server.middlewares.use("/api/contact", (req, res, next) => {
+        if (req.method !== "POST") return next();
 
-export default defineConfig({
-  plugins,
-  resolve: {
-    alias: {
-      "@": path.resolve(import.meta.dirname, "client", "src"),
-      "@shared": path.resolve(import.meta.dirname, "shared"),
-      "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+        let rawBody = "";
+        req.on("data", (chunk) => {
+          rawBody += chunk.toString();
+        });
+
+        req.on("end", async () => {
+          res.setHeader("Content-Type", "application/json");
+          try {
+            const contact = parseContactMessage(JSON.parse(rawBody));
+            if (!contact) {
+              res.statusCode = 400;
+              res.end(
+                JSON.stringify({ error: "Please provide valid form details." }),
+              );
+              return;
+            }
+
+            await sendContactEmail(contact);
+            res.statusCode = 200;
+            res.end(JSON.stringify({ success: true }));
+          } catch (error) {
+            console.error("Contact endpoint failed:", error);
+            res.statusCode = 500;
+            res.end(
+              JSON.stringify({
+                error: "Unable to send your message right now.",
+              }),
+            );
+          }
+        });
+      });
     },
-  },
-  envDir: path.resolve(import.meta.dirname),
-  root: path.resolve(import.meta.dirname, "client"),
-  build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
-    emptyOutDir: true,
-  },
-  server: {
-    port: 3000,
-    strictPort: false, // Will find next available port if 3000 is busy
-    host: true,
-    allowedHosts: [
-      ".manuspre.computer",
-      ".manus.computer",
-      ".manus-asia.computer",
-      ".manuscomputer.ai",
-      ".manusvm.computer",
-      "localhost",
-      "127.0.0.1",
+  };
+}
+
+export default defineConfig(({ mode }) => {
+  Object.assign(process.env, loadEnv(mode, import.meta.dirname, ""));
+
+  return {
+    plugins: [
+      react(),
+      tailwindcss(),
+      jsxLocPlugin(),
+      vitePluginManusRuntime(),
+      vitePluginContactApi(),
+      vitePluginManusDebugCollector(),
+      vitePluginStorageProxy(),
     ],
-    fs: {
-      strict: true,
-      deny: ["**/.*"],
+    resolve: {
+      alias: {
+        "@": path.resolve(import.meta.dirname, "client", "src"),
+        "@shared": path.resolve(import.meta.dirname, "shared"),
+        "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+      },
     },
-  },
+    envDir: path.resolve(import.meta.dirname),
+    root: path.resolve(import.meta.dirname, "client"),
+    build: {
+      outDir: path.resolve(import.meta.dirname, "dist/public"),
+      emptyOutDir: true,
+    },
+    server: {
+      port: 3000,
+      strictPort: false, // Will find next available port if 3000 is busy
+      host: true,
+      allowedHosts: [
+        ".manuspre.computer",
+        ".manus.computer",
+        ".manus-asia.computer",
+        ".manuscomputer.ai",
+        ".manusvm.computer",
+        "localhost",
+        "127.0.0.1",
+      ],
+      fs: {
+        strict: true,
+        deny: ["**/.*"],
+      },
+    },
+  };
 });
