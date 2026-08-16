@@ -1032,3 +1032,269 @@
 [2026-08-16T07:18:15.999Z] {"timestamp":1786864694810,"level":"WARN","args":["'oklab(0.5 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
 [2026-08-16T07:18:15.999Z] {"timestamp":1786864694943,"level":"WARN","args":["'oklab(0.5 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
 [2026-08-16T07:18:25.999Z] {"timestamp":1786864704094,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:23:24.776Z] {"timestamp":1786865002766,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T07:23:24.777Z] {"timestamp":1786865002788,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T07:23:24.777Z] {"timestamp":1786865002818,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T07:23:32.770Z] {"timestamp":1786865012126,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:23:58.770Z] {"timestamp":1786865038024,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:23:58.770Z] {"timestamp":1786865038225,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:24:04.768Z] {"timestamp":1786865044409,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:24:06.768Z] {"timestamp":1786865044841,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:24:20.770Z] {"timestamp":1786865060492,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:37:52.800Z] {"timestamp":1786865871168,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:44:34.059Z] {"timestamp":1786866272051,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T07:44:34.059Z] {"timestamp":1786866272071,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T07:44:38.055Z] {"timestamp":1786866276544,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:44:38.055Z] {"timestamp":1786866277538,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:44:42.054Z] {"timestamp":1786866280837,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:44:42.054Z] {"timestamp":1786866281437,"level":"WARN","args":["'oklab(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:46:04.341Z] {"timestamp":1786866362791,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-08-16T07:46:04.341Z] {"timestamp":1786866362791,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:46:12.073Z] {"timestamp":1786866370955,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:46:18.057Z] {"timestamp":1786866377039,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:46:22.055Z] {"timestamp":1786866380787,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:46:26.056Z] {"timestamp":1786866385488,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.105162)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:46:28.056Z] {"timestamp":1786866386638,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.105162)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:46:32.056Z] {"timestamp":1786866391487,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:46:58.532Z] {"timestamp":1786866418031,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:46:58.532Z] {"timestamp":1786866418035,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:46:58.532Z] {"timestamp":1786866418074,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:46:58.532Z] {"timestamp":1786866418074,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:47:10.370Z] {"timestamp":1786866428371,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:47:10.370Z] {"timestamp":1786866428372,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:47:10.370Z] {"timestamp":1786866430020,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:47:10.370Z] {"timestamp":1786866430020,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:47:19.455Z] {"timestamp":1786866437452,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T07:47:19.455Z] {"timestamp":1786866437566,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T07:47:23.458Z] {"timestamp":1786866441705,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:47:23.458Z] {"timestamp":1786866442220,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.14572)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:47:28.344Z] {"timestamp":1786866447006,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:47:28.344Z] {"timestamp":1786866447007,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:47:28.344Z] {"timestamp":1786866448053,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:47:28.344Z] {"timestamp":1786866448057,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:47:36.332Z] {"timestamp":1786866455583,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:47:36.332Z] {"timestamp":1786866455584,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:47:45.688Z] {"timestamp":1786866463685,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T07:47:45.688Z] {"timestamp":1786866463688,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T07:47:52.351Z] {"timestamp":1786866470529,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:47:52.351Z] {"timestamp":1786866470529,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:48:02.432Z] {"timestamp":1786866481420,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:48:02.432Z] {"timestamp":1786866481421,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:48:04.347Z] {"timestamp":1786866483927,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:48:04.347Z] {"timestamp":1786866483927,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:48:12.348Z] {"timestamp":1786866491317,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:48:12.348Z] {"timestamp":1786866491321,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:48:20.348Z] {"timestamp":1786866500278,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:48:20.348Z] {"timestamp":1786866500278,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:48:23.692Z] {"timestamp":1786866503494,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:48:26.381Z] {"timestamp":1786866504373,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T07:48:26.381Z] {"timestamp":1786866504378,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T07:48:28.383Z] {"timestamp":1786866507359,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:48:34.380Z] {"timestamp":1786866513664,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:48:34.380Z] {"timestamp":1786866513664,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:48:56.377Z] {"timestamp":1786866535588,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:48:56.377Z] {"timestamp":1786866535588,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:49:07.349Z] {"timestamp":1786866546793,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:49:07.349Z] {"timestamp":1786866546793,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:49:23.348Z] {"timestamp":1786866561934,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:49:23.348Z] {"timestamp":1786866561935,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:49:29.350Z] {"timestamp":1786866568166,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:49:29.350Z] {"timestamp":1786866568167,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:49:39.349Z] {"timestamp":1786866579226,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:49:39.349Z] {"timestamp":1786866579226,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:49:42.377Z] {"timestamp":1786866581935,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:49:42.377Z] {"timestamp":1786866581935,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:50:31.355Z] {"timestamp":1786866629960,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:50:31.355Z] {"timestamp":1786866629960,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:50:33.349Z] {"timestamp":1786866632277,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:50:33.349Z] {"timestamp":1786866632278,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:50:37.350Z] {"timestamp":1786866637131,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:50:37.350Z] {"timestamp":1786866637133,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:50:41.616Z] {"timestamp":1786866640844,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:50:41.616Z] {"timestamp":1786866640860,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:50:41.616Z] {"timestamp":1786866640877,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:50:43.714Z] {"timestamp":1786866641709,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T07:50:43.714Z] {"timestamp":1786866641816,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T07:50:57.712Z] {"timestamp":1786866657540,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:50:57.712Z] {"timestamp":1786866657540,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T07:50:59.713Z] {"timestamp":1786866658512,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:50:59.713Z] {"timestamp":1786866658578,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:51:37.745Z] {"timestamp":1786866696733,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T07:51:37.746Z] {"timestamp":1786866696736,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-16T07:51:42.600Z] {"timestamp":1786866700594,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T07:51:42.600Z] {"timestamp":1786866700719,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T07:51:46.599Z] {"timestamp":1786866705995,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:51:46.599Z] {"timestamp":1786866706279,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T07:51:50.601Z] {"timestamp":1786866708697,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:55:55.863Z] {"timestamp":1786870553855,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T08:55:55.863Z] {"timestamp":1786870553863,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T08:55:55.863Z] {"timestamp":1786870553881,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T08:55:59.858Z] {"timestamp":1786870559453,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:03.858Z] {"timestamp":1786870562819,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:03.858Z] {"timestamp":1786870563270,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:05.859Z] {"timestamp":1786870564303,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:05.859Z] {"timestamp":1786870564336,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:05.859Z] {"timestamp":1786870565070,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:05.859Z] {"timestamp":1786870565186,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:07.859Z] {"timestamp":1786870566886,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:10.311Z] {"timestamp":1786870568218,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:18.308Z] {"timestamp":1786870578160,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:56:18.308Z] {"timestamp":1786870578161,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:56:20.308Z] {"timestamp":1786870580013,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:56:20.308Z] {"timestamp":1786870580013,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:56:22.322Z] {"timestamp":1786870581753,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:56:22.322Z] {"timestamp":1786870581753,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:56:26.308Z] {"timestamp":1786870584438,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:56:26.308Z] {"timestamp":1786870584439,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:56:26.308Z] {"timestamp":1786870586302,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:56:26.308Z] {"timestamp":1786870586303,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:56:28.309Z] {"timestamp":1786870588126,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:56:28.309Z] {"timestamp":1786870588126,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:56:34.309Z] {"timestamp":1786870592474,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:56:34.309Z] {"timestamp":1786870592475,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:56:40.310Z] {"timestamp":1786870598931,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:56:40.310Z] {"timestamp":1786870598932,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:56:45.862Z] {"timestamp":1786870604337,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:45.862Z] {"timestamp":1786870604403,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:45.862Z] {"timestamp":1786870604553,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:45.862Z] {"timestamp":1786870604653,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:45.862Z] {"timestamp":1786870604903,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:56:45.862Z] {"timestamp":1786870605053,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:57:00.310Z] {"timestamp":1786870619215,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:57:00.310Z] {"timestamp":1786870619215,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:57:02.321Z] {"timestamp":1786870621228,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:57:02.321Z] {"timestamp":1786870621228,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:57:04.310Z] {"timestamp":1786870624093,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:57:04.310Z] {"timestamp":1786870624094,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:57:08.309Z] {"timestamp":1786870625920,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:57:08.309Z] {"timestamp":1786870626551,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:57:08.309Z] {"timestamp":1786870626552,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:34.388Z] {"timestamp":1786870688599,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870688600,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870694191,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870694191,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870696491,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870696492,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870697503,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870697503,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870701045,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870701045,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870704476,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870704476,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870707141,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870707141,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870708400,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:34.389Z] {"timestamp":1786870708400,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:35.859Z] {"timestamp":1786870715638,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:58:37.861Z] {"timestamp":1786870716236,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:58:37.861Z] {"timestamp":1786870716736,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:58:48.313Z] {"timestamp":1786870728010,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:48.313Z] {"timestamp":1786870728010,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:56.309Z] {"timestamp":1786870734897,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:56.309Z] {"timestamp":1786870734897,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:58:58.312Z] {"timestamp":1786870736444,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:58:58.312Z] {"timestamp":1786870736444,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:59:00.310Z] {"timestamp":1786870739206,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:59:00.310Z] {"timestamp":1786870739207,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:59:06.312Z] {"timestamp":1786870744318,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:36.311Z] {"timestamp":1786870774633,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:59:36.311Z] {"timestamp":1786870774633,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:59:41.866Z] {"timestamp":1786870779919,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:41.866Z] {"timestamp":1786870780470,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:50.311Z] {"timestamp":1786870789068,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T08:59:50.311Z] {"timestamp":1786870789069,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T08:59:57.864Z] {"timestamp":1786870796186,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:57.864Z] {"timestamp":1786870796269,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:57.864Z] {"timestamp":1786870796336,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:57.864Z] {"timestamp":1786870796386,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:57.864Z] {"timestamp":1786870797052,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:59.860Z] {"timestamp":1786870799353,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:59.860Z] {"timestamp":1786870799636,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T08:59:59.860Z] {"timestamp":1786870799686,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:00:03.862Z] {"timestamp":1786870802153,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:00:18.311Z] {"timestamp":1786870817161,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:00:18.311Z] {"timestamp":1786870817161,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T09:00:21.864Z] {"timestamp":1786870821835,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:00:37.896Z] {"timestamp":1786870836971,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:00:37.897Z] {"timestamp":1786870836971,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T09:00:39.862Z] {"timestamp":1786870839486,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:00:42.823Z] {"timestamp":1786870840818,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:00:42.823Z] {"timestamp":1786870840830,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:00:42.823Z] {"timestamp":1786870840843,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:00:42.823Z] {"timestamp":1786870841619,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:00:42.823Z] {"timestamp":1786870841703,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:00:42.823Z] {"timestamp":1786870841836,"level":"WARN","args":["'oklch(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:04.516Z] {"timestamp":1786870863619,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:04.664Z] {"timestamp":1786870864555,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:01:04.665Z] {"timestamp":1786870864570,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:01:04.665Z] {"timestamp":1786870864577,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:01:06.692Z] {"timestamp":1786870864688,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:01:06.692Z] {"timestamp":1786870864700,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:01:06.692Z] {"timestamp":1786870864706,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:01:06.692Z] {"timestamp":1786870865053,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:06.692Z] {"timestamp":1786870865287,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:14.690Z] {"timestamp":1786870873919,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:16.690Z] {"timestamp":1786870874719,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:16.690Z] {"timestamp":1786870875085,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.108511)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:16.690Z] {"timestamp":1786870875169,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:16.690Z] {"timestamp":1786870876169,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:16.690Z] {"timestamp":1786870876268,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:18.691Z] {"timestamp":1786870876752,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.100697)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:18.691Z] {"timestamp":1786870877569,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:18.691Z] {"timestamp":1786870877919,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.108511)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:18.691Z] {"timestamp":1786870877936,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:18.691Z] {"timestamp":1786870878119,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:18.691Z] {"timestamp":1786870878268,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:22.692Z] {"timestamp":1786870881569,"level":"WARN","args":["'oklab(0.95 0.002 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:26.691Z] {"timestamp":1786870885171,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:28.691Z] {"timestamp":1786870887069,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:28.691Z] {"timestamp":1786870888475,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:30.691Z] {"timestamp":1786870888986,"level":"WARN","args":["'oklab(0.98 0.001 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:30.691Z] {"timestamp":1786870889486,"level":"WARN","args":["'oklab(0.98 0.001 0 / 0.6)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:01:30.691Z] {"timestamp":1786870890669,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:05:09.337Z] {"timestamp":1786871108513,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:05:09.337Z] {"timestamp":1786871108513,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-16T09:05:25.528Z] {"timestamp":1786871123521,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:05:25.528Z] {"timestamp":1786871123533,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:05:25.528Z] {"timestamp":1786871123552,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:05:38.357Z] {"timestamp":1786871137329,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:05:38.357Z] {"timestamp":1786871137330,"level":"DEBUG","args":["[vite]","hot updated: /src/components/About.tsx"],"stack":null}
+[2026-08-16T09:05:43.868Z] {"timestamp":1786871141864,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:05:43.868Z] {"timestamp":1786871141877,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:05:43.868Z] {"timestamp":1786871141894,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:05:43.868Z] {"timestamp":1786871142832,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:06:23.871Z] {"timestamp":1786871182324,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:06:23.871Z] {"timestamp":1786871182325,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T09:06:29.463Z] {"timestamp":1786871187459,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:06:29.463Z] {"timestamp":1786871187462,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:06:29.463Z] {"timestamp":1786871187488,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:06:35.462Z] {"timestamp":1786871194082,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:06:47.465Z] {"timestamp":1786871206108,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:06:47.465Z] {"timestamp":1786871206108,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Resume.tsx"],"stack":null}
+[2026-08-16T09:06:55.622Z] {"timestamp":1786871213612,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:06:55.622Z] {"timestamp":1786871213628,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:06:55.623Z] {"timestamp":1786871213636,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:06:55.623Z] {"timestamp":1786871214433,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:06:55.623Z] {"timestamp":1786871214448,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:07:33.621Z] {"timestamp":1786871252544,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:07:33.621Z] {"timestamp":1786871252545,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Contact.tsx"],"stack":null}
+[2026-08-16T09:07:35.616Z] {"timestamp":1786871253986,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.1)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:07:54.328Z] {"timestamp":1786871274094,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:07:54.328Z] {"timestamp":1786871274095,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-16T09:07:56.324Z] {"timestamp":1786871275174,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-16T09:07:56.324Z] {"timestamp":1786871275175,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Experience.tsx"],"stack":null}
+[2026-08-16T09:08:00.710Z] {"timestamp":1786871280638,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:08:00.710Z] {"timestamp":1786871280643,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:08:00.710Z] {"timestamp":1786871280663,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:08:02.739Z] {"timestamp":1786871280737,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:08:02.739Z] {"timestamp":1786871280739,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:08:02.739Z] {"timestamp":1786871280746,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:08:30.742Z] {"timestamp":1786871308897,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:08:30.742Z] {"timestamp":1786871310315,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:08:34.953Z] {"timestamp":1786871312951,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-16T09:08:34.953Z] {"timestamp":1786871312958,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-16T09:08:34.953Z] {"timestamp":1786871312982,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-16T09:08:34.953Z] {"timestamp":1786871314482,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:09:38.957Z] {"timestamp":1786871377632,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:09:38.957Z] {"timestamp":1786871378772,"level":"WARN","args":["'oklch(0.15 0.01 0)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}
+[2026-08-16T09:09:38.957Z] {"timestamp":1786871378799,"level":"WARN","args":["'oklab(0.5 -0.187939 -0.068404 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable"],"stack":null}

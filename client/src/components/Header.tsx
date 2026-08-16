@@ -1,18 +1,20 @@
 import { useTheme } from "@/contexts/ThemeContext";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { useState } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme();
+  const { language, setLanguage, t } = useLanguage();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "About", href: "#about" },
-    { label: "Skills", href: "#skills" },
+    { label: t("navAbout"), href: "#about" },
+    { label: t("navSkills"), href: "#skills" },
     // { label: "Projects", href: "#projects" },
-    { label: "Experience", href: "#experience" },
+    { label: t("navExperience"), href: "#experience" },
     // { label: "Workplaces", href: "#workplaces" },
-    { label: "Contact", href: "#contact" },
+    { label: t("navContact"), href: "#contact" },
   ];
 
   return (
@@ -51,7 +53,7 @@ export default function Header() {
           <button
             onClick={toggleTheme}
             className="p-2 hover:bg-secondary rounded-lg transition-colors duration-300"
-            aria-label="Toggle theme"
+            aria-label={t("themeToggle")}
           >
             {theme === "light" ? (
               <Moon className="w-5 h-5 text-foreground" />
@@ -60,11 +62,26 @@ export default function Header() {
             )}
           </button>
 
+          <div className="flex items-center rounded-lg border border-border bg-secondary/60 p-0.5" aria-label={t("languageLabel")}>
+            {(["en", "km"] as const).map((locale) => (
+              <button
+                key={locale}
+                type="button"
+                onClick={() => setLanguage(locale)}
+                className={`min-w-10 rounded-md px-2 py-1.5 text-xs font-bold transition-colors ${language === locale ? "bg-primary text-white shadow-sm" : "text-foreground/60 hover:text-foreground"}`}
+                aria-pressed={language === locale}
+                aria-label={locale === "en" ? t("english") : t("khmer")}
+              >
+                {locale === "en" ? "EN" : "ខ្មែរ"}
+              </button>
+            ))}
+          </div>
+
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden p-2 hover:bg-secondary rounded-lg transition-colors duration-300"
-            aria-label="Toggle menu"
+            aria-label={t("menuToggle")}
           >
             {mobileMenuOpen ? (
               <X className="w-5 h-5 text-foreground" />

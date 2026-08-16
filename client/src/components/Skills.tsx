@@ -1,4 +1,5 @@
-import { Code2, Database, Wrench, Palette } from "lucide-react";
+import { Code2, Database, Palette } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import {
@@ -10,11 +11,12 @@ import {
 
 export default function Skills() {
   const { ref, isVisible } = useScrollAnimation();
+  const { t } = useLanguage();
 
   const skillCategories = [
     {
       icon: Palette,
-      title: "Frontend",
+      title: t("frontend"),
       skills: [
         "React",
         "Next.js",
@@ -26,12 +28,12 @@ export default function Skills() {
     },
     {
       icon: Code2,
-      title: "Backend",
+      title: t("backend"),
       skills: ["Node.js", "Express", "Spring Boot", "Python", "REST APIs"],
     },
     {
       icon: Database,
-      title: "Database",
+      title: t("database"),
       skills: ["PostgreSQL", "MongoDB", "MySQL"],
     },
     // {
@@ -51,14 +53,13 @@ export default function Skills() {
           animate={isVisible ? "visible" : "hidden"}
         >
           <motion.h2 className="section-title" variants={itemVariants}>
-            Skills & Expertise
+            {t("skillsTitle")}
           </motion.h2>
           <motion.p
             className="text-base md:text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
-            A comprehensive toolkit of technologies and methodologies that I use
-            to build robust, scalable applications.
+            {t("skillsDescription")}
           </motion.p>
         </motion.div>
 
@@ -149,10 +150,10 @@ export default function Skills() {
               className="text-2xl font-bold text-foreground mb-4"
               variants={itemVariants}
             >
-              Proficiency Levels
+              {t("proficiency")}
             </motion.h3>
             <motion.p className="text-foreground/60" variants={itemVariants}>
-              My expertise across different technology areas
+              {t("proficiencyDescription")}
             </motion.p>
           </div>
 
@@ -164,17 +165,17 @@ export default function Skills() {
           >
             {[
               {
-                label: "Expert",
+                label: t("expert"),
                 percentage: 95,
                 color: "from-primary to-accent",
               },
               {
-                label: "Intermediate",
+                label: t("intermediate"),
                 percentage: 85,
                 color: "from-primary/80 to-accent/80",
               },
               {
-                label: "Learning",
+                label: t("learning"),
                 percentage: 60,
                 color: "from-primary/60 to-accent/60",
               },

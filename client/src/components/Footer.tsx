@@ -6,9 +6,11 @@ import {
   itemVariants,
   staggerContainerVariants,
 } from "@/lib/animations";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Footer() {
   const { ref, isVisible } = useScrollAnimation();
+  const { t } = useLanguage();
   const currentYear = new Date().getFullYear();
 
   const scrollToTop = () => {
@@ -29,7 +31,12 @@ export default function Footer() {
     },
   ];
 
-  const navItems = ["About", "Skills", "Projects", "Experience", "Contact"];
+  const navItems = [
+    { label: t("navAbout"), href: "#about" },
+    { label: t("navSkills"), href: "#skills" },
+    { label: t("navExperience"), href: "#experience" },
+    { label: t("navContact"), href: "#contact" },
+  ];
   return (
     <footer
       className="relative overflow-hidden border-t border-border/50 bg-card/40 dark:border-white/15 dark:bg-card/80"
@@ -76,7 +83,7 @@ export default function Footer() {
                   Pisey Suon
                 </span>
                 <span className="text-xs font-medium uppercase tracking-[0.18em] text-primary dark:text-cyan-300">
-                  Full-Stack Developer
+                  {t("footerRole")}
                 </span>
               </div>
             </motion.div>
@@ -84,8 +91,7 @@ export default function Footer() {
               className="text-sm leading-7 text-muted-foreground dark:text-foreground/75"
               variants={itemVariants}
             >
-              I build thoughtful digital experiences where clean design meets
-              reliable, maintainable code.
+              {t("footerDescription")}
             </motion.p>
           </motion.div>
 
@@ -95,7 +101,7 @@ export default function Footer() {
               className="mb-5 text-sm font-semibold uppercase tracking-[0.16em] text-foreground"
               whileHover={{ color: "#00d4ff" }}
             >
-              Navigation
+              {t("navigation")}
             </motion.h3>
             <motion.ul
               className="space-y-3.5"
@@ -104,13 +110,13 @@ export default function Footer() {
               animate="visible"
             >
               {navItems.map((item) => (
-                <motion.li key={item} variants={itemVariants}>
+                <motion.li key={item.href} variants={itemVariants}>
                   <motion.a
-                    href={`#${item.toLowerCase()}`}
+                    href={item.href}
                     className="inline-flex items-center text-sm text-muted-foreground transition-colors duration-300 hover:text-primary dark:text-foreground/75 dark:hover:text-cyan-300"
                     whileHover={{ x: 5, color: "#00d4ff" }}
                   >
-                    {item}
+                    {item.label}
                   </motion.a>
                 </motion.li>
               ))}
@@ -123,7 +129,7 @@ export default function Footer() {
               className="mb-5 text-sm font-semibold uppercase tracking-[0.16em] text-foreground"
               whileHover={{ color: "#00d4ff" }}
             >
-              Connect
+              {t("connect")}
             </motion.h3>
             <motion.div
               className="flex flex-col gap-2.5"
@@ -177,7 +183,7 @@ export default function Footer() {
             className="text-center text-sm text-muted-foreground dark:text-foreground/75 md:text-left"
             variants={itemVariants}
           >
-            © {currentYear} Pisey Suon. Designed and built with care.
+            © {currentYear} Pisey Suon. {t("copyright")}
           </motion.p>
 
           {/* Scroll to Top */}
@@ -190,7 +196,7 @@ export default function Footer() {
               backgroundColor: "rgba(0, 212, 255, 0.1)",
             }}
             whileTap={{ scale: 0.9 }}
-            aria-label="Scroll to top"
+            aria-label={t("scrollToTop")}
           >
             <motion.div
               animate={{ y: [0, -5, 0] }}
@@ -198,7 +204,7 @@ export default function Footer() {
             >
               <ArrowUp className="w-5 h-5 text-foreground" />
             </motion.div>
-            <span>Back to top</span>
+            <span>{t("backToTop")}</span>
           </motion.button>
         </motion.div>
       </div>

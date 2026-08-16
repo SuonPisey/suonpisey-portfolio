@@ -10,9 +10,11 @@ import {
   staggerContainerVariants,
   gridItemVariants,
 } from "@/lib/animations";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Contact() {
   const { ref, isVisible } = useScrollAnimation();
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -46,16 +48,16 @@ export default function Contact() {
         error?: string;
       } | null;
       if (!response.ok) {
-        throw new Error(result?.error || "Unable to send your message.");
+        throw new Error(result?.error || t("sendError"));
       }
 
-      toast.success("Your message was sent successfully!");
+      toast.success(t("sendSuccess"));
       setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (error) {
       toast.error(
         error instanceof Error
           ? error.message
-          : "Unable to send your message. Please try again.",
+          : t("sendError"),
       );
     } finally {
       setIsSending(false);
@@ -65,26 +67,26 @@ export default function Contact() {
   const contactInfo = [
     {
       icon: Mail,
-      label: "Email",
+      label: t("email"),
       value: "suonpisey017@gmail.com",
       href: "mailto:suonpisey017@gmail.com",
     },
     {
       icon: Phone,
-      label: "Phone",
+      label: t("phone"),
       value: "+855 (17) 783-868",
       href: "tel:+85517783868",
     },
     {
       icon: MapPin,
-      label: "Location",
-      value: "Phnom Penh, Cambodia",
+      label: t("location"),
+      value: t("locationValue"),
       href: "https://www.google.com/maps/search/?api=1&query=Phnom+Penh%2C+Cambodia",
     },
   ];
 
   return (
-    <section id="contact" className="py-16 md:py-32 bg-secondary/30" ref={ref}>
+    <section id="contact" className="py-10 bg-secondary/30" ref={ref}>
       <div className="container">
         <motion.div
           className="mb-10 md:mb-16"
@@ -93,14 +95,13 @@ export default function Contact() {
           animate={isVisible ? "visible" : "hidden"}
         >
           <motion.h2 className="section-title" variants={itemVariants}>
-            Get In Touch
+            {t("contactTitle")}
           </motion.h2>
           <motion.p
             className="text-base md:text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
-            Have a project in mind or want to collaborate? I'd love to hear from
-            you. Feel free to reach out!
+            {t("contactDescription")}
           </motion.p>
         </motion.div>
 
@@ -182,7 +183,7 @@ export default function Contact() {
                   htmlFor="name"
                   className="block text-sm font-semibold text-foreground mb-3"
                 >
-                  Full Name
+                  {t("fullName")}
                 </label>
                 <motion.input
                   type="text"
@@ -192,7 +193,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300"
-                  placeholder="Your name"
+                  placeholder={t("yourName")}
                 />
               </motion.div>
 
@@ -208,7 +209,7 @@ export default function Contact() {
                   htmlFor="email"
                   className="block text-sm font-semibold text-foreground mb-3"
                 >
-                  Email Address
+                  {t("emailAddress")}
                 </label>
                 <motion.input
                   type="email"
@@ -234,7 +235,7 @@ export default function Contact() {
                   htmlFor="subject"
                   className="block text-sm font-semibold text-foreground mb-3"
                 >
-                  Subject
+                  {t("subject")}
                 </label>
                 <motion.input
                   type="text"
@@ -244,7 +245,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300"
-                  placeholder="Project inquiry"
+                  placeholder={t("projectInquiry")}
                 />
               </motion.div>
 
@@ -260,7 +261,7 @@ export default function Contact() {
                   htmlFor="message"
                   className="block text-sm font-semibold text-foreground mb-3"
                 >
-                  Message
+                  {t("message")}
                 </label>
                 <motion.textarea
                   id="message"
@@ -270,7 +271,7 @@ export default function Contact() {
                   required
                   rows={5}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300 resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder={t("messagePlaceholder")}
                 />
               </motion.div>
 
@@ -295,7 +296,7 @@ export default function Contact() {
                   ) : (
                     <Send className="h-4 w-4" />
                   )}
-                  {isSending ? "Sending..." : "Send Message"}
+                  {isSending ? t("sending") : t("sendMessage")}
                 </Button>
               </motion.div>
             </form>

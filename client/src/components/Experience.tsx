@@ -7,55 +7,53 @@ import {
   slideInLeftVariants,
   staggerContainerVariants,
 } from "@/lib/animations";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Experience() {
   const { ref, isVisible } = useScrollAnimation();
+  const { t } = useLanguage();
 
   const experiences = [
     {
       id: 1,
-      title: "Lecturer at Setec Institute",
+      title: t("exp1Title"),
       company: "Setec Institute",
-      period: "2026 - Present",
+      period: `2026 - ${t("present")}`,
       logo: "/assets/logo/setec.png",
       logoFallback: "SI",
-      description:
-        "As a Lecturer at Setec Institute, I teach courses in web development, and software engineering. I design and deliver engaging lectures and practical sessions to help students understand complex concepts and apply them in real-world scenarios. My experience includes developing course materials, assessing student performance, and providing mentorship to support their academic and professional growth. I use various teaching methodologies and technologies to create an interactive learning environment that fosters critical thinking and problem-solving skills.",
+      description: t("exp1Description"),
     },
     {
       id: 2,
-      title: "Web Application Developer",
+      title: t("exp2Title"),
       company: "Hanuman Beverages",
-      period: "2026 - Present",
+      period: `2026 - ${t("present")}`,
       logo: "/assets/logo/hanuman.jpeg",
       logoFallback: "HB",
-      description:
-        "As a Web Application Developer, I design and build complete web applications using Angular for the frontend and .NET for the backend. I develop and integrate RESTful APIs to ensure seamless communication between systems. My experience includes managing Oracle and PostgreSQL databases with a focus on performance, scalability, and reliability. I implement secure authentication using JWT and manage role-based access control to protect application resources. Working closely with cross-functional teams, I help plan, develop, test, and deploy scalable software solutions. I use Git, Visual Studio, and Azure DevOps for version control, collaboration, and project management. My goal is to create efficient, secure, and user-friendly applications that meet business requirements and deliver a high-quality user experience.",
+      description: t("exp2Description"),
     },
     {
       id: 3,
-      title: "Web Application Developer",
+      title: t("exp3Title"),
       company: "Online ISP",
       period: "2024 - 2026",
       logo: "/assets/logo/onlineisp.jpeg",
       logoFallback: "O",
-      description:
-        "As a Full Stack Developer, I designed and built complete web applications using Next.js for the frontend and Spring Boot for the backend. I developed and integrated RESTful APIs to ensure seamless communication between systems. My experience included managing Oracle and PostgreSQL databases with a focus on performance and reliability. I implemented secure authentication using JWT and handled role-based access control. Working closely with cross-functional teams, I helped plan, test, and deliver scalable software solutions. I used Git, Maven, and Gradle for version control and project management. My goal was to create efficient, secure, and user-friendly applications that met business needs.",
+      description: t("exp3Description"),
     },
     {
       id: 4,
-      title: "Frontend Developer & Technical Support",
+      title: t("exp4Title"),
       company: "Cubetiq Solution",
       period: "2022 - 2024",
       logo: "/assets/logo/cubetiq.png",
       logoFallback: "C",
-      description:
-        "Progressed from Technical Support to Frontend Developer, providing system support and troubleshooting while developing responsive web applications with React and Next.js, integrating APIs, optimizing performance, and collaborating with cross-functional teams to deliver high-quality solutions.",
+      description: t("exp4Description"),
     },
   ];
 
   return (
-    <section id="experience" className="py-16 md:py-32 bg-background" ref={ref}>
+    <section id="experience" className="py-10   bg-background" ref={ref}>
       <div className="container">
         <motion.div
           className="mb-10 md:mb-16"
@@ -64,14 +62,13 @@ export default function Experience() {
           animate={isVisible ? "visible" : "hidden"}
         >
           <motion.h2 className="section-title" variants={itemVariants}>
-            Experience
+            {t("experienceTitle")}
           </motion.h2>
           <motion.p
             className="text-base md:text-lg text-foreground/60 max-w-2xl"
             variants={itemVariants}
           >
-            My professional journey and the roles that shaped my expertise as a
-            full-stack developer.
+            {t("experienceDescription")}
           </motion.p>
         </motion.div>
 
@@ -136,7 +133,7 @@ export default function Experience() {
                         <span aria-hidden="true">{exp.logoFallback}</span>
                         <img
                           src={exp.logo}
-                          alt={`${exp.company} logo`}
+                          alt={`${exp.company} ${t("logoAlt")}`}
                           className="absolute inset-0 h-full w-full bg-white object-contain p-1.5"
                           loading="lazy"
                           onError={(event) => {

@@ -9,8 +9,10 @@ import {
   containerVariants,
   itemVariants,
 } from "@/lib/animations";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Hero() {
+  const { t } = useLanguage();
   const socialIcons = [
     { icon: Mail, href: "mailto:suonpisey017@gmail.com", label: "Email" },
     {
@@ -52,7 +54,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Welcome to my portfolio
+              {t("heroWelcome")}
             </motion.span>
           </motion.div>
 
@@ -61,7 +63,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-5 md:mb-6 leading-tight"
           >
-            Hi, I'm <span className="gradient-text">Pisey Suon</span>
+            {t("heroGreeting")} <span className="gradient-text">Pisey Suon</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -69,7 +71,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-lg sm:text-xl text-foreground/70 mb-4 font-medium"
           >
-            Full-Stack Developer from Cambodia
+            {t("heroRole")}
           </motion.p>
 
           {/* Description */}
@@ -77,10 +79,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-base sm:text-lg text-foreground/60 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0"
           >
-            I craft beautiful, performant web applications using modern
-            technologies like React, Next.js, TypeScript, and Node.js.
-            Passionate about building scalable solutions and delivering
-            exceptional user experiences.
+            {t("heroDescription")}
           </motion.p>
 
           {/* CTA Buttons */}
@@ -98,7 +97,7 @@ export default function Hero() {
                     ?.scrollIntoView({ behavior: "smooth" })
                 }
               >
-                View Projects <ArrowRight className="w-4 h-4" />
+                {t("viewProjects")} <ArrowRight className="w-4 h-4" />
               </Button>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -112,7 +111,7 @@ export default function Hero() {
                     ?.scrollIntoView({ behavior: "smooth" })
                 }
               >
-                Contact Me
+                {t("contactMe")}
               </Button>
             </motion.div>
           </motion.div>
@@ -123,7 +122,7 @@ export default function Hero() {
             className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-6"
           >
             <span className="text-foreground/60 font-medium">
-              Connect with me:
+              {t("connectWithMe")}
             </span>
             <motion.div
               className="flex gap-4"
@@ -171,7 +170,7 @@ export default function Hero() {
           >
             <img
               src="/assets/logo.jpg"
-              alt="Decorative Element"
+              alt={t("decorativeAlt")}
               className="absolute inset-0 w-full h-full object-contain rounded-2xl"
             />
           </motion.div>

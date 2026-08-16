@@ -124,6 +124,18 @@
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
   }
+  html[lang="km"] body {
+    font-family: "Noto Sans Khmer", "Khmer OS System", "Inter", sans-serif;
+  }
+  html[lang="km"] h1,
+  html[lang="km"] h2,
+  html[lang="km"] h3,
+  html[lang="km"] h4,
+  html[lang="km"] h5,
+  html[lang="km"] h6 {
+    font-family: "Noto Sans Khmer", "Khmer OS System", "Poppins", sans-serif;
+    line-height: 1.5;
+  }
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 5rem;

@@ -9,35 +9,37 @@ import {
   staggerContainerVariants,
   gridItemVariants,
 } from "@/lib/animations";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function About() {
   const { ref, isVisible } = useScrollAnimation();
+  const { t } = useLanguage();
 
   const stats = [
-    { label: "Years of Experience", value: "5+" },
-    { label: "Projects Completed", value: "20+" },
-    { label: "Technologies", value: "10+" },
-    { label: "Client Satisfaction", value: "100%" },
+    { label: t("yearsExperience"), value: "5+" },
+    { label: t("projectsCompleted"), value: "20+" },
+    { label: t("technologies"), value: "10+" },
+    { label: t("clientSatisfaction"), value: "100%" },
   ];
 
   const highlights = [
     {
-      title: "Frontend Development",
+      title: t("frontendDevelopment"),
       description:
         "React, Next.js, TypeScript, JavaScript, Angular, Tailwind CSS",
     },
     {
-      title: "Backend Development",
+      title: t("backendDevelopment"),
       description: "Node.js, Spring Boot, RESTful APIs",
     },
     {
-      title: "Database & Tools",
+      title: t("databaseTools"),
       description: "PostgreSQL, Oracle, MySQL, Git, Docker, CI/CD",
     },
   ];
 
   return (
-    <section id="about" className="py-16 md:py-32 bg-secondary/30">
+    <section id="about" className="py-10 bg-secondary/30">
       <div className="container" ref={ref}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
           {/* Left Content */}
@@ -47,29 +49,21 @@ export default function About() {
             animate={isVisible ? "visible" : "hidden"}
           >
             <motion.h2 className="section-title" variants={itemVariants}>
-              About Me
+              {t("aboutTitle")}
             </motion.h2>
 
             <motion.p
               className="text-base md:text-lg text-foreground/70 mb-5 md:mb-6 leading-relaxed"
               variants={itemVariants}
             >
-              I'm a passionate full-stack developer based in Cambodia with a
-              strong foundation in both frontend and backend technologies. With
-              expertise in modern JavaScript frameworks and server-side
-              development, I create end-to-end solutions that solve real-world
-              problems.
+              {t("aboutP1")}
             </motion.p>
 
             <motion.p
               className="text-base md:text-lg text-foreground/70 mb-8 leading-relaxed"
               variants={itemVariants}
             >
-              My journey in web development started with a curiosity about how
-              things work on the internet. Over the years, I've honed my skills
-              through various projects, internships, and continuous learning. I
-              believe in writing clean, maintainable code and delivering
-              products that users love.
+              {t("aboutP2")}
             </motion.p>
 
             <motion.div
